@@ -18,7 +18,7 @@
 
         /* Kuźnia Kendala */ "1224": "KEND",
         /* Port Tuzmer */ "630": "PORT",
-        /* AGIA TRIADA */ "1984": "AGIA";
+        /* AGIA TRIADA */ "1984": "AGIA",
 
         /* TYTANI */
 
