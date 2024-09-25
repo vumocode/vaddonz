@@ -1,0 +1,212 @@
+*{
+    background-color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    user-select: none;
+}
+
+#zestaw1, #zestaw2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#p1{
+    color: red;
+    font-size: 80%;
+}
+
+#p2{
+    color: aqua;
+    font-size: 80%;
+}
+
+#p3{
+    color: yellow;
+    font-size: 80%;
+}
+
+#p4{
+    color: rgb(0, 255, 0);
+    font-size: 80%;
+}
+
+#p4m{
+    color: rgb(0, 255, 0);
+    font-size: 60%;
+    margin-top: -13px;
+}
+
+#p5{
+    color: rgb(255, 0, 217);
+    font-size: 80%;
+}
+
+#p6{
+    color: rgb(255, 145, 0);
+    font-size: 80%;
+}
+
+#p6m{
+    color: rgb(255, 145, 0);
+    font-size: 60%;
+    margin-top: -13px;
+}
+
+#a1{
+    color: red;
+}
+
+#a2{
+    color: aqua;
+}
+
+#a3{
+    color: yellow;
+}
+
+#a4{
+    color: rgb(0, 255, 0);
+}
+
+#a5{
+    color: rgb(255, 0, 217);
+}
+
+#a6{
+    color: rgb(255, 145, 0);
+}
+
+#kod1{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px red solid;
+    box-shadow: 0px 0px 20px red;
+    color: red;
+    width: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0.5%;
+    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
+
+}
+
+#kod1:hover{
+    font-size: 1.5em; /* Enlarged font size on hover */
+
+}
+
+#kod2{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px solid aqua;
+    box-shadow: 0px 0px 20px aqua;
+    width: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0.5%;
+    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
+    
+}
+
+#kod2:hover{
+    font-size: 1.5em; /* Enlarged font size on hover */
+
+}
+
+#kod3{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px yellow solid;
+    box-shadow: 0px 0px 20px yellow;
+    width: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0.5%;
+    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
+}
+
+#kod3:hover{
+    font-size: 1.5em; /* Enlarged font size on hover */
+
+}
+
+#kod4{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px rgb(0, 255, 0) solid;
+    box-shadow: 0px 0px 20px rgb(0, 255, 0);
+    width: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0.5%;
+    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
+}
+
+#kod4:hover{
+    font-size: 1.5em; /* Enlarged font size on hover */
+
+}
+
+#kod5{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px rgb(255, 0, 217) solid;
+    box-shadow: 0px 0px 20px rgb(255, 0, 217);
+    width: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0.5%;
+    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
+}
+
+#kod5:hover{
+    font-size: 1.5em; /* Enlarged font size on hover */
+
+}
+
+#kod6{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px rgb(255, 145, 0) solid;
+    box-shadow: 0px 0px 20px rgb(255, 145, 0);
+    width: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0.5%;
+    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
+}
+
+#kod6:hover{
+    font-size: 1.5em; /* Enlarged font size on hover */
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-text{
+    background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #7fff00, #00ff00, #00ff7f, #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f, #ff0000);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text; /* Standard property */
+    -webkit-text-fill-color: transparent;
+    animation: gradient 10s infinite linear;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
