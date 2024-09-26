@@ -3,7 +3,7 @@
 // @version      1.0
 // @description  Dodatek umozliwiający wysyłanie (automatycznie, bądź nie) pingów o herosach, kolosach, tytanach na discorda.
 // @author       vumo
-// @match        https://*.margonem.pl/
+// @match        https://aether.margonem.pl/
 // @downloadURL  https://vumocode.github.io/vaddonz/addons/hod.js
 // @updateURL    https://vumocode.github.io/vaddonz/addons/hod.js
 // @require      https://vumocode.github.io/vaddonz/addons/hod.js

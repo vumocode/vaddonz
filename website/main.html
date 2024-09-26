@@ -1,42 +1,114 @@
-<!DOCTYPE html5>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>MARGONEM ADDONS</title>
+    <script src="script.js" defer></script>
+    <link rel="icon" href="https://vumocode.github.io/vaddonz/dependencies/assets/vaddonz.ico" type="image/x-icon">
+    <title>VADDONZ</title>
+    
 </head>
 <body>
-    <h1 class="gradient-text">MARGONEM ADDONS</h1>
-<div id="zestaw1">
-    <div id="kod1"><a id="a1" href="https://vumocode.github.io/margonem-addons/podpisy.user.js">Podpisy KCS</a> <br />
-        <p id="p1">Podpisy pod KCS i nie tylko.</p>
+    <div class="hidden">
+        <h1 class="gradient-text">VADDONZ</h1>
+        <h6 class="xpp">super nazwa xpp</h6>
+
+        <div class="categories">
+            <div id="utility" class="category">UŻYTKOWE</div>
+            <div id="cosmetic" class="category">KOSMETYCZNE</div>
+            <div id="other" class="category">INNE</div>
+        </div>
     </div>
 
-    <div id="kod4"><a id="a4" href="https://vumocode.github.io/margonem-addons/better-text.user.js">Better Text</a> <br />
-        <p id="p4">Nieklikalny tekst powiadomień.</p>
-        <p id="p4m">(Działa tylko z zestawem dodatków Maddonz)</p>
+    <!-- Sekcja: Dodatki użytkowe -->
+    <div class="addons_utility">
+        <div id="kcs" class="addon">
+            <div id="title_utility">PODPISY KCS</div>
+            <div id="kcsdesc">Dodatek tworzący podpisy m.in do Kamieni Czerwonego Smoka.</div>
+        </div>
+
+        <div id="hod" class="addon">
+            <div id="title_utility">HEROES ON DISCORD</div>
+            <div id="hoddesc">Dodatek wysyłający powiadomienie o npc na discord.</div>
+            <div id="hoddesc1">(herosi, kolosi, tytani)</div>
+        </div>
+
+        <div id="qs" class="addon">
+            <div id="title_utility">QUICK SELL</div>
+            <div id="qsdesc">Dodatek dodający funkcje sprzedaży pod przyciskami.</div>
+            <div id="qsdesc1">(1,2,3 enter)</div>
+        </div>
+
+        <div id="dps" class="addon">
+            <div id="title_utility">DPS METER</div>
+            <div id="dpsdesc">work in progress...</div>
+        </div>
+
+        <div id="qp" class="addon">
+            <div id="title_utility">QUICK PROFILES</div>
+            <div id="qpdesc">work in progress...</div>
+        </div>
     </div>
 
-    <div id="kod6"><a id="a6" href="https://vumocode.github.io/margonem-addons/quick-sell.user.js">Quick Sell</a> <br />
-        <p id="p6">Sprzedawanie pod przyciskami</p>
-        <p id="p6m">(1, 2, 3, enter)</p>
-    </div>
-</div>
-<div id="zestaw2">
-    <div id="kod2"><a id="a2" href="https://vumocode.github.io/margonem-addons/betterll.user.js">Better Lootlog</a> <br />
-        <p id="p2">Customowy styl css dla Lootloga.</p>
+    <!-- Sekcja: Dodatki kosmetyczne -->
+    <div class="addons_cosmetic">
+        <div id="tooltips" class="addon">
+            <div id="title_cosmetic">BETTER TOOLTIPS</div>
+            <div id="tooltipsdesc">Dodatek poprawiający widok tooltipów.</div>
+        </div>
+
+        <div id="btext" class="addon">
+            <div id="title_cosmetic">BETTER TEXT</div>
+            <div id="btextdesc">Dodatek zmieniający powiadomienia.</div>
+            <div id="btextdesc1">(Wymaga zestawu dodatków Maddonz)</div>
+        </div>
+
+        <div id="blootlog" class="addon">
+            <div id="title_cosmetic">BETTER LOOTLOG</div>
+            <div id="blootlogdesc">Dodatek zmieniający wygląd lootloga.</div>
+            <div id="blootlogdesc1">(Timery, powiadomienia etc.)</div>
+        </div>
+
+        <div id="darkni" class="addon">
+            <div id="title_cosmetic">FIXED DARKNESS</div>
+            <div id="darknidesc">Poprawiony dodatek DARKNESS NI.</div>
+            <div id="darknidesc1">(autorstwa Xaller i Zeph)</div>
+        </div>
+
+        <div id="glow" class="addon">
+            <div id="title_cosmetic">FANCY GLOW</div>
+            <div id="glowdesc">work in progress...</div>
+        </div>
     </div>
 
-    <div id="kod5"><a id="a5" href="https://vumocode.github.io/margonem-addons/gui-fix.user.js">GUI Fix</a> <br />
-        <p id="p5">Zmienia czerwone kolorki w GUI Margonem na szare.</p>
+    <!-- Sekcja: Inne dodatki -->
+    <div class="addons_other">
+        <div id="mini" class="addon">
+            <div id="title_other">MINI CHAT</div>
+            <div id="minidesc">Dodatek zmieniający chat na mniejszy.</div>
+        </div>
+
+        <div id="lnfix" class="addon">
+            <div id="title_other">MARGONEM LN FIX</div>
+            <div id="lnfixdesc">Dodatek poprawiający wbudowany Legendary Notificator.</div>
+            <div id="lnfixdesc1">(usuwa brzydki border, dookoła okna lootu)</div>
+        </div>
+
+        <div id="guifix" class="addon">
+            <div id="title_other">GUI FIX</div>
+            <div id="guifixdesc">Dodatek zmieniający czerwone akcenty w GUI Margonem na szare.</div>
+        </div>
+
+        <div id="tnotif" class="addon">
+            <div id="title_other">TIMER NOTIFICATOR</div>
+            <div id="tnotifdesc">work in progress...</div>
+        </div>
     </div>
 
-    <div id="kod3"><a id="a3" href="https://vumocode.github.io/margonem-addons/better-tooltips.user.js">Better Tooltips</a> <br />
-        <p id="p3">Customowy styl css tooltipów.</p>
-    </div>
-</div>
-</div>
+    <footer>
+        discord: vum0 <br />
+        <a href="https://www.margonem.pl/profile/view,9778110"> Profil Margonem</a>
+    </footer>
 </body>
-</html
+</html>

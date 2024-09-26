@@ -1,190 +1,8 @@
-*{
-    background-color:black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     user-select: none;
-}
-
-#zestaw1, #zestaw2{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#p1{
-    color: red;
-    font-size: 80%;
-}
-
-#p2{
-    color: aqua;
-    font-size: 80%;
-}
-
-#p3{
-    color: yellow;
-    font-size: 80%;
-}
-
-#p4{
-    color: rgb(0, 255, 0);
-    font-size: 80%;
-}
-
-#p4m{
-    color: rgb(0, 255, 0);
-    font-size: 60%;
-    margin-top: -13px;
-}
-
-#p5{
-    color: rgb(255, 0, 217);
-    font-size: 80%;
-}
-
-#p6{
-    color: rgb(255, 145, 0);
-    font-size: 80%;
-}
-
-#p6m{
-    color: rgb(255, 145, 0);
-    font-size: 60%;
-    margin-top: -13px;
-}
-
-#a1{
-    color: red;
-}
-
-#a2{
-    color: aqua;
-}
-
-#a3{
-    color: yellow;
-}
-
-#a4{
-    color: rgb(0, 255, 0);
-}
-
-#a5{
-    color: rgb(255, 0, 217);
-}
-
-#a6{
-    color: rgb(255, 145, 0);
-}
-
-#kod1{
-    text-align: center;
-    font-size: 120%;
-    font-weight: bold;
-    border: 1px red solid;
-    box-shadow: 0px 0px 20px red;
-    color: red;
-    width: 32%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0.5%;
-    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
-
-}
-
-#kod1:hover{
-    font-size: 1.5em; /* Enlarged font size on hover */
-
-}
-
-#kod2{
-    text-align: center;
-    font-size: 120%;
-    font-weight: bold;
-    border: 1px solid aqua;
-    box-shadow: 0px 0px 20px aqua;
-    width: 32%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0.5%;
-    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
-    
-}
-
-#kod2:hover{
-    font-size: 1.5em; /* Enlarged font size on hover */
-
-}
-
-#kod3{
-    text-align: center;
-    font-size: 120%;
-    font-weight: bold;
-    border: 1px yellow solid;
-    box-shadow: 0px 0px 20px yellow;
-    width: 32%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0.5%;
-    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
-}
-
-#kod3:hover{
-    font-size: 1.5em; /* Enlarged font size on hover */
-
-}
-
-#kod4{
-    text-align: center;
-    font-size: 120%;
-    font-weight: bold;
-    border: 1px rgb(0, 255, 0) solid;
-    box-shadow: 0px 0px 20px rgb(0, 255, 0);
-    width: 32%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0.5%;
-    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
-}
-
-#kod4:hover{
-    font-size: 1.5em; /* Enlarged font size on hover */
-
-}
-
-#kod5{
-    text-align: center;
-    font-size: 120%;
-    font-weight: bold;
-    border: 1px rgb(255, 0, 217) solid;
-    box-shadow: 0px 0px 20px rgb(255, 0, 217);
-    width: 32%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0.5%;
-    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
-}
-
-#kod5:hover{
-    font-size: 1.5em; /* Enlarged font size on hover */
-
-}
-
-#kod6{
-    text-align: center;
-    font-size: 120%;
-    font-weight: bold;
-    border: 1px rgb(255, 145, 0) solid;
-    box-shadow: 0px 0px 20px rgb(255, 145, 0);
-    width: 32%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0.5%;
-    transition: font-size 0.5s ease-in-out; /* Transition for smooth enlargement */
-}
-
-#kod6:hover{
-    font-size: 1.5em; /* Enlarged font size on hover */
-
 }
 
 @keyframes gradient {
@@ -199,14 +17,200 @@
     }
 }
 
-.gradient-text{
+.gradient-text {
     background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #7fff00, #00ff00, #00ff7f, #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f, #ff0000);
     background-size: 300%;
     -webkit-background-clip: text;
-    background-clip: text; /* Standard property */
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient 10s infinite linear;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.xpp {
+    color: white;
+    opacity: 15%;
+    text-align: center;
+    margin-top: -65px;
+    padding-bottom: 50px;
+}
+
+.hidden {
+    height: fit-content;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: black;
+    position: relative;
+    margin-top: -10px;
+    z-index: 9999;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.category {
+    width: 250px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+}
+
+#utility, .addons_utility .addon {
+    border: 1px solid red;
+    color: red;
+    transition: background-color 0.3s, box-shadow 0.1s;
+}
+
+#utility:hover, .addons_utility .addon:hover {
+    border: 1px solid red;
+    color: red;
+    box-shadow: 1px 1px 35px red;
+}
+
+#cosmetic, .addons_cosmetic .addon {
+    border: 1px solid rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
+    transition: background-color 0.3s, box-shadow 0.1s;
+}
+
+#cosmetic:hover, .addons_cosmetic .addon:hover {
+    border: 1px solid rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
+    box-shadow: 1px 1px 35px rgb(0, 255, 0);
+}
+
+#other, .addons_other .addon {
+    border: 1px solid rgb(0, 102, 255);
+    color: rgb(0, 102, 255);
+    transition: background-color 0.3s, box-shadow 0.1s;
+}
+
+#other:hover, .addons_other .addon:hover {
+    border: 1px solid rgb(0, 102, 255);
+    color: rgb(0, 102, 255);
+    box-shadow: 1px 1px 35px rgb(0, 102, 255);
+}
+
+#utility.active {
+    box-shadow: 1px 1px 35px red;
+}
+
+#cosmetic.active {
+    box-shadow: 1px 1px 35px rgb(0, 255, 0);
+}
+
+#other.active {
+    box-shadow: 1px 1px 35px rgb(0, 102, 255);
+}
+
+.addons_utility, .addons_cosmetic, .addons_other {
+    position: absolute;
+    left: 8px;
+    width: calc(100% - 48px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 0px;
+    transition: margin-top 0.7s ease;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 13px;
+}
+
+#title_utility, #title_cosmetic, #title_other {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.addon {
+    width: 250px;
+    min-height: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+}
+
+#kcsdesc, #hoddesc, #qsdesc, #dpsdesc, #qpdesc {
+    font-size: 15px;
+    padding: 15px 5px 5px 5px;
+    border-top: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: inherit;
+    color: inherit;
+}
+
+#tooltipsdesc, #btextdesc, #blootlogdesc, #darknidesc, #glowdesc {
+    font-size: 15px;
+    padding: 15px 5px 5px 5px;
+    border-top: 2px solid rgb(0, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: inherit;
+    color: inherit;
+}
+
+#minidesc, #lnfixdesc, #guifixdesc, #tnotifdesc {
+    font-size: 15px;
+    padding: 15px 5px 5px 5px;
+    border-top: 2px solid rgb(0, 102, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: inherit;
+    color: inherit;
+}
+
+#btextdesc1, #qsdesc1, #hoddesc1, #darknidesc1, #lnfixdesc1, #blootlogdesc1 {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: inherit;
+    color: inherit;
+}
+
+footer {
+    position: fixed; /* Ustaw pozycję jako fixed, aby była zawsze widoczna */
+    bottom: 0; /* Przesuń do dolnej części ekranu */
+    right: 0; /* Przesuń do prawej części ekranu */
+    background-color: rgba(0, 0, 0, 0.7); /* Opcjonalnie: lekko przezroczyste tło */
+    color: white; /* Kolor tekstu */
+    padding: 10px; /* Dodaj padding, aby tekst nie przylegał do krawędzi */
+    z-index: 1000; /* Ustaw z-index, aby był nad innymi elementami */
+    text-align: center; /* Wycentrowanie tekstu */
+}
+
+footer a {
+    color: rgb(245, 255, 99); /* Kolor linku */
+    text-decoration: none; /* Usunięcie podkreślenia */
 }
