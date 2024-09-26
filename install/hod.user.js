@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HEROES TO DISCORD
 // @version      1.0
-// @description  Dodatek umozliwiający wysyłanie (automatycznie, bądź nie) pingów o herosach, kolosach, tytanach na discorda.
+// @description  Dodatek wysyłający powiadomienie o NPC na Discord.
 // @author       vumo
 // @match        https://aether.margonem.pl/
 // @downloadURL  https://vumocode.github.io/vaddonz/addons/hod.js

@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Quick Sell
+// @name         QUICK SELL
 // @version      1.0
 // @description  Sprzedawanie pod przyciskami (1, 2, 3, enter)
 // @author       vumo

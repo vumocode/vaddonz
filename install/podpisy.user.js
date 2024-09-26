@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Podpisy KCS
+// @name         PODPISY KCS
 // @version      1.0
-// @description  Podpisy KCS'ów
+// @description  Dodatek tworzący podpisy m.in do Kamieni Czerwonego Smoka.
 // @author       vumo
 // @match        https://*.margonem.pl/
 // @downloadURL  https://vumocode.github.io/vaddonz/addons/podpisy.js
