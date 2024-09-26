@@ -2,7 +2,7 @@
 // @name         BETTER TEXT
 // @version      1.0
 // @description  Lepszy, nieklikalny tekst powiadomień. 
-// @description  (Działa tylko z zestawem dodatków Maddonz)
+// @description  [ Działa tylko z zestawem dodatków Maddonz ]
 // @author       vumo
 // @match        https://*.margonem.pl/
 // @downloadURL  https://vumocode.github.io/vaddonz/addons/btext.js
