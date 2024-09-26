@@ -16,16 +16,16 @@ style.type = 'text/css';
 
 const css = `
 
-style.appendChild(document.createTextNode(css));
-
-document.head.appendChild(style);
-
 .chat-input-wrapper .magic-input-wrapper {
     border: 1px solid #7e7474;
 }
 
 .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {
     border: 1px solid #7e7474;
+}
+
+body {
+background: url(https://i.imgur.com/tPbCJUQ.png) repeat;
 }
 
 .new-chat-window .chat-message-wrapper {
@@ -43,4 +43,5 @@ box-shadow: 0 0 10px 1px black;
 height:40%;
 }
 }
+
 `;
