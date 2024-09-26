@@ -88,6 +88,11 @@ const css = `
     background: transparent;
     color: white;
 }
+
+.cll-launcher, #PWLauncher {
+    background: #121213;
+    color: #bcbcbc;
+}
 `;
 
 style.appendChild(document.createTextNode(css));
