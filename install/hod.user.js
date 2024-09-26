@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         HEROES TO DISCORD
+// @name         HEROES ON DISCORD
 // @version      1.0
 // @description  Dodatek wysyłający powiadomienie o NPC na Discord.
 // @author       vumo
