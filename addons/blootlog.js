@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BETTER LOOTLOG
 // @version      1.0
-// @description  Dodatek zmieniający wygląd lootloga.</div>
+// @description  Dodatek zmieniający wygląd lootloga.
 // @description  [ Timery, powiadomienia etc. ]
 // @author       vumo
 // @match        https://*.margonem.pl/
@@ -12,10 +12,9 @@
 // @grant        none
 // ==/UserScript==
 
-const style = document.createElement('style');
-style.type = 'text/css';
-
-const css = `
+(function() {
+    'use strict';
+$(`<style>
 .cll-timer {
     background: rgb(0 0 0 / 50%);
     border: 1px solid #3b3b3b;
@@ -93,8 +92,5 @@ const css = `
     background: #121213;
     color: #bcbcbc;
 }
-`;
-
-style.appendChild(document.createTextNode(css));
-
-document.head.appendChild(style);
+</style>`).appendTo('html');
+})();

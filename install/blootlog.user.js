@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BETTER LOOTLOG
 // @version      1.0
-// @description  Dodatek zmieniający wygląd lootloga.</div>
+// @description  Dodatek zmieniający wygląd lootloga.
 // @description  [ Timery, powiadomienia etc. ]
 // @author       vumo
 // @match        https://*.margonem.pl/
