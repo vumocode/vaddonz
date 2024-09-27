@@ -11,10 +11,9 @@
 // @grant        none
 // ==/UserScript==
 
-const style = document.createElement('style');
-style.type = 'text/css';
-
-const css = `
+(function() {
+    'use strict';
+    $(`<style>
 
 .chat-input-wrapper .magic-input-wrapper {
     border: 1px solid #7e7474;
@@ -42,6 +41,6 @@ width:250px;
 box-shadow: 0 0 10px 1px black;
 height:40%;
 }
-}
 
-`;
+</style>`).appendTo('head');
+})();
