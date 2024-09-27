@@ -1690,9 +1690,6 @@ background: url(https://i.imgur.com/tPbCJUQ.png) repeat;
     color: #111111;
 }
 
-.author-section.click-able, .author-section {
-    text-shadow: 0 0 10px rgb(188 0 255), 0 0 10px rgb(188 0 255), 0 0 10px rgb(188 0 255);
-}
 `;
 
 style.appendChild(document.createTextNode(css));
