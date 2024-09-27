@@ -5,6 +5,7 @@
 // @description  [ Usuwa brzydki border dookoła okna lootu ]
 // @author       vumo
 // @match        https://*.margonem.pl/
+// @exclude      https://www.margonem.pl/*
 // @downloadURL  https://vumocode.github.io/vaddonz/addons/lnfix.js
 // @updateURL    https://vumocode.github.io/vaddonz/addons/lnfix.js
 // @require      https://vumocode.github.io/vaddonz/addons/lnfix.js

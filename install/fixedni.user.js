@@ -5,6 +5,7 @@
 // @description  [ autorstwa Xaller i Zeph ]
 // @author       vumo
 // @match        https://*.margonem.pl/
+// @exclude      https://www.margonem.pl/*
 // @downloadURL  https://vumocode.github.io/vaddonz/addons/fixedni.js
 // @updateURL    https://vumocode.github.io/vaddonz/addons/fixedni.js
 // @require      https://vumocode.github.io/vaddonz/addons/fixedni.js

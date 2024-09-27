@@ -4,6 +4,7 @@
 // @description  Dodatek zmieniający chat na mniejszy.
 // @author       vumo
 // @match        https://*.margonem.pl/
+// @exclude      https://www.margonem.pl/*
 // @downloadURL  https://vumocode.github.io/vaddonz/addons/mini.js
 // @updateURL    https://vumocode.github.io/vaddonz/addons/mini.js
 // @require      https://vumocode.github.io/vaddonz/addons/mini.js
