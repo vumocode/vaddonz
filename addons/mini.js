@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MINI CHAT
-// @version      1.0
+// @version      1.01
 // @description  Dodatek zmieniający chat na mniejszy.
 // @author       vumo
 // @match        https://*.margonem.pl/
