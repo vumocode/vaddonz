@@ -7,7 +7,7 @@
 // @downloadURL  https://vumocode.github.io/margonem-addons/addons/podpisy.js
 // @updateURL    https://vumocode.github.io/margonem-addons/addons/podpisy.js
 // @require      https://vumocode.github.io/margonem-addons/addons/podpisy.js
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=margonem.pl
+// @icon         https://vumocode.github.io/vaddonz/dependencies/assets/vaddonz.ico
 // @grant        none
 // ==/UserScript==
 

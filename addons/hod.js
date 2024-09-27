@@ -7,7 +7,7 @@
 // @downloadURL  https://vumocode.github.io/vaddonz/addons/hod.js
 // @updateURL    https://vumocode.github.io/vaddonz/addons/hod.js
 // @require      https://vumocode.github.io/vaddonz/addons/hod.js
-// @icon         https://cdn.icon-icons.com/icons2/1945/PNG/512/iconfinder-discord-4661587_122459.png
+// @icon         https://vumocode.github.io/vaddonz/dependencies/assets/vaddonz.ico
 // @grant        none
 // ==/UserScript==
 
