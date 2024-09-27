@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         BETTER TOOLTIPS
-// @version      1.0
+// @version      1.01
 // @description  Dodatek poprawiający widok tooltipów.
 // @author       vumo
 // @match        https://*.margonem.pl/
