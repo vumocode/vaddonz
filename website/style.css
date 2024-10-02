@@ -177,7 +177,7 @@
     color: inherit;
 }
 
-#minidesc, #lnfixdesc, #guifixdesc, #tnotifdesc {
+#minidesc, #lnfixdesc, #rubynidesc, #tnotifdesc, #lloffdesc{
     font-size: 15px;
     padding: 15px 5px 5px 5px;
     border-top: 2px solid rgb(0, 102, 255);

@@ -14,9 +14,7 @@
 
 (function() {
     'use strict';
-
-    function applyStyles() {
-        const styleContent = `
+$(`<style>
             /* NORMAL */
             .tip-wrapper[data-item-type=normal], .tip-wrapper[data-item-type=t-norm] {
                 box-shadow: none !important;
@@ -75,25 +73,5 @@
                 height: 32px;
                 width: 32px;
             }
-        `;
-
-        const styleElement = $('<style>').html(styleContent);
-        $('head').append(styleElement);
-    }
-
-    $(document).ready(function() {
-        applyStyles();
-
-        setTimeout(checkStyles, 1000);
-    });
-
-    const observer = new MutationObserver(function(mutationsList) {
-        for (let mutation of mutationsList) {
-            if (mutation.type === 'childList' || mutation.type === 'attributes') {
-                checkStyles();
-            }
-        }
-    });
-
-    observer.observe(document.body, { attributes: true, childList: true, subtree: true });
+</style>`).appendTo('html');
 })();
