@@ -3,7 +3,7 @@
 // @version      1.0
 // @description  Dodatek poprawiający widok tooltipów.
 // @author       vumo
-// @match        https://*.margonem.pl/
+// @match        https://aether.margonem.pl/
 // @match        https://www.margonem.pl/*
 // @icon         https://vumocode.github.io/vaddonz/dependencies/assets/vaddonz.ico
 // @grant        none

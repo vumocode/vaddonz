@@ -3,7 +3,7 @@
 // @version      1.0
 // @description  Lekko Poprawiony dodatek DARKNESS NI. [ autorstwa Xaller i Zeph ]
 // @author       vumo
-// @match        https://*.margonem.pl/
+// @match        https://aether.margonem.pl/
 // @exclude      https://www.margonem.pl/*
 // @icon         https://vumocode.github.io/vaddonz/dependencies/assets/vaddonz.ico
 // @grant        none
@@ -1666,6 +1666,10 @@ background: url(https://i.imgur.com/tPbCJUQ.png) repeat;
 
 .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {
     border: 1px solid #7e7474;
+}
+
+body {
+    background: url(https://i.imgur.com/tPbCJUQ.png) repeat;
 }
 
 .party .exp-percent {

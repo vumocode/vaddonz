@@ -2,9 +2,8 @@
 // @name         BETTER LOOTLOG
 // @version      1.0
 // @description  Dodatek zmieniający wygląd lootloga.
-// @description  [ Timery, powiadomienia etc. ]
 // @author       vumo
-// @match        https://*.margonem.pl/
+// @match        https://aether.margonem.pl/
 // @exclude      https://www.margonem.pl/*
 // @icon         https://vumocode.github.io/vaddonz/dependencies/assets/vaddonz.ico
 // @grant        none
