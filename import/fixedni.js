@@ -1025,7 +1025,7 @@ const fixedniCSS = `
     background: url(https://i.imgur.com/eAtXPG7.png) repeat-y;
     background-size: 100%;
     color: #e6d6bf;
-    font-weight: 700
+    font-weight: 700 !important;
 }
 
 .clan-other-recruit-content .green-box,.clan-recruit-content .green-box {
@@ -1057,7 +1057,7 @@ const fixedniCSS = `
 
 .card-content .table-header {
     color: #e6d6bf;
-    font-weight: 700;
+    font-weight: 700 !important;
     text-shadow: 1px 1px black
 }
 
@@ -1682,7 +1682,7 @@ body {
     font-size: 24px;
     color: rgba(0,0,0,.2);
     text-align: center;
-    font-weight: 700;
+    font-weight: 700 !important;
     text-shadow: 0 0 1px rgba(0,0,0,.2);
     position: relative;
     top: 20%;
