@@ -10,9 +10,10 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
-    'use strict';
-$(`<style>
+const style = document.createElement('style');
+style.type = 'text/css';
+
+const css = `
 .cll-timer {
     background: rgb(0 0 0 / 50%);
     border: 1px solid #3b3b3b;
@@ -89,6 +90,8 @@ $(`<style>
 .cll-launcher, #PWLauncher {
     background: #121213;
     color: #bcbcbc;
-}
-</style>`).appendTo('html');
-})();
+`;
+
+style.appendChild(document.createTextNode(css));
+
+document.head.appendChild(style);
