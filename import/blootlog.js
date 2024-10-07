@@ -23,20 +23,10 @@ const blootlogCSS = `
     padding-bottom: 5px;
 }
 
-.cll-timer {
-    background: rgb(0 0 0 / 0%);
-    border: 1px solid #3b3b3b;
-    border-radius: 0px;
-    box-shadow: inset 0px 0px 14px 3px rgb(0 0 0);
-    font-family: Arial;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 .cll-timer-highlighted {
     background: #4d4d4d57 !important;
     font-family: Arial;
-    font-weight: 700;
+    font-weight: 700 !important;
     font-size: 11px;
     border: 3px double #424242 !important;
 }
