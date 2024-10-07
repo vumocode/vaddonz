@@ -10,7 +10,7 @@
 // @grant        none
 // ==/UserScript==
 
-const style = document.createElement('style');
+const bloologStyle = document.createElement('style');
 style.type = 'text/css';
 
 const css = `
