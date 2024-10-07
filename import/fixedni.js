@@ -9,7 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
-const style = document.createElement('style');
+const fixedniStyle = document.createElement('style');
 style.type = 'text/css';
 
 const css = `
