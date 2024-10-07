@@ -89,6 +89,7 @@ const blootlogCSS = `
 .cll-launcher, #PWLauncher {
     background: #121213;
     color: #bcbcbc;
+}
 `;
 
 blootlogStyle.appendChild(document.createTextNode(blootlogCSS));
