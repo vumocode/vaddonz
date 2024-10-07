@@ -95,14 +95,6 @@ addStyles(lldStyles, lldHoverStyles);
 
 // Czekaj na załadowanie całej strony
 window.addEventListener('load', () => {
-    // Szukaj kontenera HUD
-    const contentContainer = document.querySelector('.top.positioner .content');
-
-    // Sprawdź, czy kontener został znaleziony
-    if (!contentContainer) {
-        console.error('Nie znaleziono kontenera content.');
-        return;
-    }  
 
     const lldButton = document.createElement('div');
     lldButton.className = 'lldButton';
