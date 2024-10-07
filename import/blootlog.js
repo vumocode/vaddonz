@@ -92,6 +92,6 @@ const blootlogCSS = `
     color: #bcbcbc;
 `;
 
-style.appendChild(document.createTextNode(css));
+bloologStyle.appendChild(document.createTextNode(blootlogCSS));
 
 document.head.appendChild(style);

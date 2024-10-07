@@ -1688,6 +1688,6 @@ background: url(https://i.imgur.com/tPbCJUQ.png) repeat;
 
 `;
 
-style.appendChild(document.createTextNode(css));
+fixedniStyle.appendChild(document.createTextNode(fixedniCSS));
 
 document.head.appendChild(style);
