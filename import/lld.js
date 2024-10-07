@@ -9,14 +9,21 @@
 // @grant        none
 // ==/UserScript==
 
+(function () {
+    'use strict';
+
+// Funkcja do dodawania stylów CSS
 function addStyles(lldStyles, lldHoverStyles = {}) {
     const lldStyle = document.createElement('style');
     lldStyle.type = 'text/css';
 
+
+    // Dodaj główne style
     for (const className in lldStyles) {
         lldStyle.textContent += `.${className} { ${lldStyles[className]} }\n`;
     }
 
+    // Dodaj style hover
     for (const className in lldHoverStyles) {
         lldStyle.textContent += `.${className}:hover { ${lldHoverStyles[className]} }\n`;
     }
@@ -24,6 +31,7 @@ function addStyles(lldStyles, lldHoverStyles = {}) {
     document.head.appendChild(lldStyle);
 }
 
+// Definicje stylów
 const lldStyles = {
     lldButton: `
     display: flex;
@@ -70,6 +78,7 @@ const lldStyles = {
     `,
 };
 
+// Definicje stylów hover
 const lldHoverStyles = {
     lldButton: `
         background: linear-gradient(1deg, #000000, #1a8c00);
@@ -81,11 +90,15 @@ const lldHoverStyles = {
     `,
 };
 
+// Dodanie stylów do dokumentu
 addStyles(lldStyles, lldHoverStyles);
 
+// Czekaj na załadowanie całej strony
 window.addEventListener('load', () => {
+    // Szukaj kontenera HUD
     const contentContainer = document.querySelector('.top.positioner .content');
 
+    // Sprawdź, czy kontener został znaleziony
     if (!contentContainer) {
         console.error('Nie znaleziono kontenera content.');
         return;
@@ -108,7 +121,7 @@ window.addEventListener('load', () => {
         <p> LPM - Włącz / Wyłącz </p>
     `;
 
-
+    // Dodawanie przycisku i tooltipa
     const interval = setInterval(() => {
         const vaddonzContainer = document.querySelector('.vaddonzContainer');
         if (vaddonzContainer) {
@@ -116,18 +129,22 @@ window.addEventListener('load', () => {
             lldButton.appendChild(lld);
             document.body.appendChild(lldTooltip);
             lldTooltip.appendChild(lldTooltipContent);
-            clearInterval(interval);
+            clearInterval(interval); // Zatrzymaj interwał po dodaniu przycisku
         }
-    }, 1000);
+    }, 1000); // Sprawdzaj co 1000 ms (1 sekunda)
 
+            // Zmienna do śledzenia stanu
             let isVisible = true;
 
+            // Dodaj event listener dla przycisku
             lldButton.addEventListener('click', () => {
                 const llAlerts = document.querySelector('.cll-alert');
                 if (llAlerts) {
-                    isVisible = !isVisible;
-                    llAlerts.style.display = isVisible ? 'block' : 'none';
+                    // Przełączanie widoczności
+                    isVisible = !isVisible; // Zmiana stanu
+                    llAlerts.style.display = isVisible ? 'block' : 'none'; // Ustawienie stylu w zależności od stanu
 
+                    // Zmiana stylu przycisku
                     if (isVisible) {
                         lldButton.classList.remove('lldButtonActive');
                     } else {
@@ -139,16 +156,17 @@ window.addEventListener('load', () => {
             });
 
     lldButton.addEventListener('mouseenter', () => {
-        lldTooltip.style.display = 'block';
+        lldTooltip.style.display = 'block'; // Pokazuje tooltip
     });
     
     lldButton.addEventListener('mouseleave', () => {
-        lldTooltip.style.display = 'none';
+        lldTooltip.style.display = 'none'; // Ukrywa tooltip
     });
     
     lldButton.addEventListener('mousemove', (e) => {
-        lldTooltip.style.left = `${e.pageX + 30}px`;
+        lldTooltip.style.left = `${e.pageX + 30}px`; // Ustawia pozycję tooltipa
         lldTooltip.style.top = `${e.pageY + 0}px`;
     });
 
 });
+})();
