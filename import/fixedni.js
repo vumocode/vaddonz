@@ -12,7 +12,7 @@
 const fixedniStyle = document.createElement('style');
 style.type = 'text/css';
 
-const css = `
+const fixedniCSS = `
 .sys_info .clan-message {
     color: #4d2600
 }
