@@ -13,7 +13,7 @@
 const bloologStyle = document.createElement('style');
 style.type = 'text/css';
 
-const css = `
+const blootlogCSS = `
 .cll-timer {
     background: rgb(0 0 0 / 50%);
     border: 1px solid #3b3b3b;
