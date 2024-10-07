@@ -117,6 +117,8 @@ window.addEventListener('load', () => {
             document.body.appendChild(lldTooltip);
             lldTooltip.appendChild(lldTooltipContent);
             clearInterval(interval);
+        }
+    }, 1000);
 
             let isVisible = true;
 
@@ -135,8 +137,6 @@ window.addEventListener('load', () => {
                     console.error('Nie znaleziono elementu .cll-alert');
                 }
             });
-        }
-    }, 1000);
 
     lldButton.addEventListener('mouseenter', () => {
         lldTooltip.style.display = 'block';
