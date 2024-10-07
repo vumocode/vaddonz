@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 const fixedniStyle = document.createElement('style');
-style.type = 'text/css';
+fixedniStyle.type = 'text/css';
 
 const fixedniCSS = `
 .sys_info .clan-message {
@@ -1689,5 +1689,4 @@ background: url(https://i.imgur.com/tPbCJUQ.png) repeat;
 `;
 
 fixedniStyle.appendChild(document.createTextNode(fixedniCSS));
-
-document.head.appendChild(style);
+document.head.appendChild(fixedniStyle);

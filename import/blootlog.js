@@ -10,8 +10,8 @@
 // @grant        none
 // ==/UserScript==
 
-const bloologStyle = document.createElement('style');
-style.type = 'text/css';
+const blootlogStyle = document.createElement('style');
+blootlogStyle.type = 'text/css';
 
 const blootlogCSS = `
 .cll-timer {
@@ -92,6 +92,5 @@ const blootlogCSS = `
     color: #bcbcbc;
 `;
 
-bloologStyle.appendChild(document.createTextNode(blootlogCSS));
-
-document.head.appendChild(style);
+blootlogStyle.appendChild(document.createTextNode(blootlogCSS));
+document.head.appendChild(blootlogStyle);
