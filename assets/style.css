@@ -285,6 +285,7 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #3b3737;
+    background-image: linear-gradient(to top, #171717, #232323);
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
