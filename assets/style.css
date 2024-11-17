@@ -353,10 +353,6 @@
     opacity: 0; /* Po dodaniu tej klasy, element stanie się przezroczysty */
 }
 
-.vaddonz-dock.collapsed {
-    height: 0;
-  }
-
 /*///////// ID /////////*/
 
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
