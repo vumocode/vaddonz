@@ -353,6 +353,10 @@
     opacity: 0; /* Po dodaniu tej klasy, element stanie się przezroczysty */
 }
 
+.vaddonz-dock.collapsed {
+    height: 0;
+  }
+
 /*///////// ID /////////*/
 
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
@@ -421,10 +425,6 @@
     transition: background-color 0.2s ease-in-out;
     transition: height 0.5s ease-in;
 }
-
-#vaddonz-dock.collapsed {
-    height: 0;
-  }
 
 #vaddonzDockSwitch:hover {
     background-color: var(--vaddonz-accent);
