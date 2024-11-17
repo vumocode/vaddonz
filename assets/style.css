@@ -325,6 +325,11 @@
 }
 /*///////// ID /////////*/
 
+#settingsQP-input{
+    width: 35px;
+    margin-left: 10px;
+}
+
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
     display: flex;
     justify-content: center;
