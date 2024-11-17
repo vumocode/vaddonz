@@ -307,6 +307,12 @@
     font-family: Rubik, sans-serif !important;
 }
 
+.dock-settings-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
 /*///////// ID /////////*/
 
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
