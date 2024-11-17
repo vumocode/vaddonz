@@ -295,11 +295,6 @@
     background-blend-mode: hard-light;
 }
 
-.vaddonz-dock-addon.hover{
-    background-color: var(--vaddonz-accent);
-    background-blend-mode: hard-light;
-}
-
 .dock-settings{
     position: fixed;
     top: 50%;
@@ -362,6 +357,8 @@
 
 #vaddonz-dock.collapsed {
     height: 0;
+    background-color: var(--vaddonz-accent);
+    background-blend-mode: hard-light;
 }
 
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
