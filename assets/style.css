@@ -288,7 +288,7 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
-.vaddonz-dock-adon:hover{
+.vaddonz-dock-addon:hover{
     background-color: var(--vaddonz-accent);
     background-blend-mode: hard-light;
 }
