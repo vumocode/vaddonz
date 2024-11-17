@@ -6,8 +6,8 @@
 // @match        https://*.margonem.pl/
 // @match        https://*.margonem.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=margonem.pl
-// @downloadURL  https://vumocode.github.io/v-addonz/vaddonz-install.user.js
-// @updateURL    https://vumocode.github.io/v-addonz/vaddonz-install.user.js
+// @downloadURL  https://vumocode.github.io/vaddonz/vaddonz-install.user.js
+// @updateURL    https://vumocode.github.io/vaddonz/vaddonz-install.user.js
 // @grant        none
 // ==/UserScript==
 
