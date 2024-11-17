@@ -355,6 +355,11 @@
 
 /*///////// ID /////////*/
 
+#vaddonzDockSwitch.active {
+    background-color: var(--vaddonz-accent) !important;
+    background-blend-mode: hard-light !important;
+  }
+
 #vaddonz-dock.collapsed {
     height: 0;
 }
