@@ -325,16 +325,17 @@
 }
 
 .vaddonz-notification {
+    font-family: Rubik, sans-serif !important;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #333;
-    color: #fff;
+    background-color: #00000087;
+    color: #ff0000;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 15px;
     z-index: 9999;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
 }
 /*///////// ID /////////*/
