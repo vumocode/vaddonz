@@ -278,7 +278,14 @@
     word-break: break-word;
 }
 
-
+.vaddonz-dock-addon{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
 
 /*///////// ID /////////*/
 
