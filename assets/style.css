@@ -287,6 +287,7 @@
     border-bottom: 1px solid #3b3737;
     background-image: linear-gradient(to top, #171717, #232323);
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .vaddonz-dock-addon:hover{
