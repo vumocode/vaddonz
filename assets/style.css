@@ -288,6 +288,11 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
+.vaddonz-dock-adon:hover{
+    background-color: var(--vaddonz-accent);
+    background-blend-mode: hard-light;
+}
+
 .dock-settings{
     position: fixed;
     top: 50%;
@@ -347,11 +352,6 @@
 }
 
 /*///////// ID /////////*/
-
-#settingsQP-input{
-    width: 35px;
-    margin-left: 10px;
-}
 
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
     display: flex;
