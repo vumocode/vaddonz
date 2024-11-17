@@ -307,17 +307,10 @@
     font-family: Rubik, sans-serif !important;
 }
 
-.dock-settings-content:before {
-    content: '';
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    border-radius: 4px;
-    background-color: #ffffff00;
-    border: 2px solid #515151;
-    transition: background-color 0.3s;
-    transition: border 0.3s;
-    margin-right: -6px;
+.dock-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .dock-settings-title{
