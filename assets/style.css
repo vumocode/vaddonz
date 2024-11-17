@@ -421,6 +421,10 @@
     transition: background-color 0.2s ease-in-out;
 }
 
+#vaddonz-dock.collapsed {
+    height: 0;
+  }
+
 #vaddonzDockSwitch:hover {
     background-color: var(--vaddonz-accent);
     background-blend-mode: hard-light;
