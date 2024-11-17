@@ -5,7 +5,7 @@
 // @description  Menadżer dodatków do gry Margonem.
 // @match        https://*.margonem.pl/
 // @match        https://*.margonem.com/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=margonem.pl
+// @icon         https://vumocode.github.io/vaddonz/assets/vaddonz.ico
 // @downloadURL  https://vumocode.github.io/vaddonz/vaddonz-install.user.js
 // @updateURL    https://vumocode.github.io/vaddonz/vaddonz-install.user.js
 // @grant        none
