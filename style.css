@@ -1,52 +1,353 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-html, body {
-  height: 100%;
-  margin: 0;
+:root {
+    --vaddonz-accent: #ff0000;
 }
 
-body {
-  background: linear-gradient(0deg, #530003, #000000);
-  transition: background 0.1s linear;
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
 }
 
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
 }
 
-.title {
-  font-family: 'Rubik', sans-serif !important;
-  color: white;
-  user-select: none;
-  font-size: 40px;
-  font-weight: 500;
-  margin: 25px;
-  text-shadow: rgba(0, 0, 0, 0.6) -1px -1px 3px, 
-               rgba(0, 0, 0, 0.6) 1px -1px 3px,
-               rgba(0, 0, 0, 0.6) -1px 1px 3px,
-               rgba(0, 0, 0, 0.6) 1px 1px 3px,
-               rgba(0, 0, 0, 0.4) 0 0 6px;
+::-webkit-scrollbar-thumb {
+    background: #575757;
 }
 
-.install {
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*///////// KLASY /////////*/
+
+.vaddonz-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 160px;
+    right: 146px;
+    height: 29px;
+    width: 83px;
+    padding: 5px;
     font-family: 'Rubik', sans-serif !important;
-    width: 150px;
-    text-align: center;
-    color: white;
-    user-select: none;
-    box-shadow: 0px 0px 20px 0px black;
-    padding: 20px;
-    border-radius: 20px;
-    transition: background-color 0.2s ease-in;
-    background-color: #530003;
-    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-image: url(https://i.postimg.cc/kgc1tnm7/jezusku.png);
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    z-index: 9999;
 }
 
-.install:hover {
-  background-color: #1a0001;
-  cursor: pointer;
+.vaddonz-button:hover {
+    background-color: var(--vaddonz-accent);
+    background-blend-mode: hard-light;
+}
+
+.vaddonz-button.active {
+    background-color: var(--vaddonz-accent);
+    background-blend-mode: hard-light;
+}
+
+.vaddonz-switch {
+    color: rgb(201, 201, 201);
+    text-align: center;
+    line-height: 0px;
+    text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 2px, rgba(0, 0, 0, 0.75) 1px -1px 2px,
+                 rgba(0, 0, 0, 0.75) -1px 1px 2px, rgba(0, 0, 0, 0.75) 1px 1px 2px,
+                 rgba(0, 0, 0, 0.75) -2px -2px 4px, rgba(0, 0, 0, 0.75) 2px -2px 4px;
+}
+
+.vaddonz-fyi {
+    display: flex;
+    padding: 5px;
+    height: 25px;
+    margin-left: -2px;
+    margin-top: -1px;
+    width: 890px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid gray;
+    border-top: 1px solid gray;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: var(--vaddonz-accent);
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.vaddonz-title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/4n.png?v=1730794617277) 10 28, auto;
+}
+
+.work-in-progress {
+    color: var(--vaddonz-accent);
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+.vaddonz-list {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 506px;
+    width: 900px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid gray;
+    color: white;
+    font-family: 'Rubik', sans-serif !important;
+    display: none;
+    user-select: none;
+    z-index: 16;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
+}
+
+.vaddonz-categories {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.vaddonzACTIVECATEGORY {
+    border: 1px solid var(--vaddonz-accent) !important;
+    color: var(--vaddonz-accent) !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    transition: all 0.1s ease-in;
+}
+
+.vaddonzINACTIVECATEGORY {
+    border: 1px solid gray;
+    transition: all 0.1s ease-in;
+}
+
+.vaddonzACTIVELIST {
+    display: block !important;
+}
+
+.vaddonzINACTIVELIST {
+    display: none;
+}
+
+.vaddonzSettingsEntry{
+    border: 1px solid var(--vaddonz-accent);
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin: 15px;
+    padding: 5px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.vaddonzSettingsName{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 85%;
+    border-bottom: 2px solid var(--vaddonz-accent);
+}
+
+.vaddonzChangelogEntry {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.vaddonzChangelogEntry {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.changelogName {
+    margin-right: 3px;
+    color: var(--vaddonz-accent);
+    font-weight: 600;
+}
+
+.changelogDate {
+    margin-left: auto;
+}
+
+.vaddon {
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid gray;
+    padding-left: 5px;
+}
+
+.vaddonName {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.vaddonDescription {
+    font-size: 12px;
+    padding-left: 23px;
+    padding-bottom: 11px;
+}
+
+.vaddon-checkbox {
+    display: none;
+}
+
+.vaddonName label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+}
+
+.vaddonName label::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+    background-color: #ffffff00;
+    border: 2px solid #515151;
+    transition: background-color 0.3s;
+    transition: border 0.3s;
+    margin-right: -6px;
+}
+
+.vaddon-checkbox:checked + label::before {
+    background-color: var(--vaddonz-accent);
+    border: 2px solid var(--vaddonz-accent);
+}
+
+.vaddonz-tip-wrapper{
+    box-shadow: 0 0 #2b282a, 0 0 0 1px #353131, 0 0 0 2px #191311, 0 0 0 3px #2b2727, 0 0 0 4px #0f0f0f99, 0 0 0 5px #0f0f0f, 0 0 0 6px #5a585b, 0 0 0 7px #2c2625;
+    color: #e6d6bf;
+    line-height: 14px;
+    max-width: 250px;
+    min-width: 150px;
+    position: absolute;
+    text-align: center;
+    user-select: none;
+    z-index: 1000;
+}
+
+.vaddonz-tip-wrapper .content{
+    padding: 5px;
+    background: rgba(15, 15, 15, .85);
+    word-break: break-word;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.tip-wrapper {
+    box-shadow: 0 0 0 0 #2b282a, 0 0 0 1px #353131, 0 0 0 2px #191311, 0 0 0 3px #2b2727, 0 0 0 4px #59595a, 0 0 0 5px #9da1a7, 0 0 0 6px #5a585b, 0 0 0 7px #2c2625;
+    color: #e6d6bf;
+    line-height: 14px;
+    max-width: 250px;
+    min-width: 150px;
+    position: absolute;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index: 1000;
+}
+
+.tip-wrapper .content {
+    background: rgba(0, 0, 0, .85);
+    font-size: 12.8px;
+    padding: 5px;
+    word-break: break-word;
+}
+
+
+
+/*///////// ID /////////*/
+
+#vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+}
+
+#vaddonzAccentColor{
+    background: none;
+    border: none;
+    width: 100px;
+    height: 35px;
+}
+
+#vaddonz-popup{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#vaddonz-dock{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #3b3737;
+    box-shadow: 0px 0px 5px 0px #393939 inset;
+    background: transparent;
+    color: #d4d4d4;
+    background-image: linear-gradient(to top, #171717, #232323) !important;
+    border-radius: 10px 0px 0px 00px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    pointer-events: initial;
+}
+
+#vaddonzDockSwitch {
+    position: absolute;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-image: linear-gradient(to top, #171717, #232323);
+    border: 1px solid #3b3737;
+    box-shadow: 0px 0px 5px 0px #393939 inset;
+    color: #d4d4d4;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    pointer-events: initial;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#vaddonzDockSwitch:hover {
+    background-color: var(--vaddonz-accent);
+    background-blend-mode: hard-light;
 }
