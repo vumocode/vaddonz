@@ -289,6 +289,24 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
+.dock-settings{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: max-content;
+    width: 300px;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid gray;
+    color: white;
+    display: block;
+    user-select: none;
+    z-index: 16;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
+    font-family: Rubik, sans-serif !important;
+}
+
 /*///////// ID /////////*/
 
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
