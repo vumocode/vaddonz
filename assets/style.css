@@ -357,8 +357,6 @@
 
 #vaddonz-dock.collapsed {
     height: 0;
-    background-color: var(--vaddonz-accent) !important;
-    background-blend-mode: hard-light !important;
 }
 
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
