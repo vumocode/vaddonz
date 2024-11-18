@@ -434,7 +434,6 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     pointer-events: initial;
     transition: background-color 0.2s ease-in-out;
-    transition: height 0.5s ease-in;
     rotate: 0deg;
     transition: rotate 0.5s ease-in-out;
 }
