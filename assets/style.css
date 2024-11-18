@@ -371,7 +371,9 @@
 
 
 #vaddonz-dock.collapsed {
-    height: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
 }
 
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
@@ -406,7 +408,7 @@
 
 #vaddonz-dock{
     width: 25px;
-    height: fit-content;
+    max-height: 500px; /* Ustaw wartość wystarczająco dużą dla zawartości */
     border: 1px solid #3b3737;
     box-shadow: 0px 0px 5px 0px #393939 inset;
     background: transparent;
