@@ -366,7 +366,7 @@
 }
 
 #vaddonzDockSwitch.active .fa {
-    transform: rotate(90deg); /* Przekręcenie o 90 stopni */
+    transform: rotate(-90deg); /* Przekręcenie o 90 stopni */
 }
 
 
