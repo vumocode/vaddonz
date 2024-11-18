@@ -312,13 +312,11 @@
     flex-direction: column-reverse;
     pointer-events: initial;;
     overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
 }
 
 #vaddonz-dock.collapsed {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
 }
 
 .vaddonz-dock-addon{
