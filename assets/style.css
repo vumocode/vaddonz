@@ -298,7 +298,7 @@
 
 #vaddonz-dock{
     width: 25px;
-    max-height: 500px;
+    max-height: 500px; /* Ustaw wartość wystarczająco dużą dla zawartości */
     border: 1px solid #3b3737;
     box-shadow: 0px 0px 5px 0px #393939 inset;
     background: transparent;
@@ -310,8 +310,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    pointer-events: initial;
+    pointer-events: initial;;
     overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
 }
 
 #vaddonz-dock.collapsed {
