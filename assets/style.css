@@ -361,10 +361,14 @@
     background-blend-mode: hard-light !important;
   }
 
-#vaddonzDockSwitch.active .fa {
-    rotate: 90deg;
-    transition: rotate 0.5s ease-in-out;
+  #vaddonzDockSwitch .fa {
+    transition: transform 0.5s ease-in-out; /* Ustawienie płynnej animacji dla transformacji */
 }
+
+#vaddonzDockSwitch.active .fa {
+    transform: rotate(90deg); /* Przekręcenie o 90 stopni */
+}
+
 
 #vaddonz-dock.collapsed {
     height: 0;
@@ -434,8 +438,6 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     pointer-events: initial;
     transition: background-color 0.2s ease-in-out;
-    rotate: 0deg;
-    transition: rotate 0.5s ease-in-out;
 }
 
 #vaddonzDockSwitch:hover {
