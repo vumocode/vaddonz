@@ -325,6 +325,11 @@
     transition: background-color 0.2s ease-in-out;
 }
 
+.vaddonz-dock-addon.active{
+    background-color: var(--vaddonz-accent);
+    background-blend-mode: hard-light;
+}
+
 
 .vaddonz-dock-addon:hover {
     background-color: var(--vaddonz-accent);
