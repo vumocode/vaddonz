@@ -176,6 +176,7 @@
 }
 
 .work-in-progress {
+    z-index: -1;
     color: var(--vaddonz-accent);
     font-size: 12px;
     font-weight: 600;
