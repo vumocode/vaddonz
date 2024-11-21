@@ -320,11 +320,11 @@
 }
 
 #vaddonz-dock .vaddonz-dock-addon#vaddonz-qp {
-    order: 1; /* Zmieniamy kolejność, np. przesuń na 2. pozycję */
+    order: 0; /* Zmieniamy kolejność, np. przesuń na 2. pozycję */
 }
   
 #vaddonz-dock .vaddonz-dock-addon#vaddonz-aff {
-    order: 0; /* Pozostaje na 1. pozycji */
+    order: 1; /* Pozostaje na 1. pozycji */
 }
   
 #vaddonz-dock .vaddonz-dock-addon#vaddonz-ld {
