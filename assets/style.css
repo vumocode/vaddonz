@@ -432,3 +432,26 @@
 .vaddonz-notification.fade-out {
     opacity: 0;
 }
+
+.enhance__progress--current {
+    background: linear-gradient(90deg, 
+        #ffdd00, 
+        #ffaa00, 
+        #ff5500, 
+        #ff0000, 
+        #cc0000, 
+        #800000
+    );
+    background-size: 200% 100%;
+    animation: flame 3s infinite alternate;
+    z-index: -1;
+}
+
+@keyframes flame {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
