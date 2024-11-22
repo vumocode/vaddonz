@@ -454,7 +454,7 @@
         #ff6600,  /* 3 - Ciepły pomarańczowy */
         #ffaa00   /* 2 - Pomarańczowy */
         #ffcc00,  /* 1 - Jasny żółty */
-    );
+    ) !important;
     background-size: 200% 100%;  /* Zwiększenie rozmiaru gradientu */
     background-position: 0% 0%;  /* Początkowa pozycja */
     animation: flame 6s linear infinite;  /* Animacja płynnego przesuwania */
