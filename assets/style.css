@@ -325,8 +325,12 @@
     order: 1; /* Pozostaje na 1. pozycji */
 }
   
-#vaddonz-dock .vaddonz-dock-addon#vaddonz-ld {
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-brb {
     order: 2; /* Przesuń na 3. pozycję */
+}
+
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-ld {
+    order: 3; /* Przesuń na 3. pozycję */
 }
 
 .vaddonz-dock-addon {
