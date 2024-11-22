@@ -441,7 +441,7 @@
         #ff0000, 
         #cc0000, 
         #800000
-    );
+    ) !important;
     background-size: 200% 100%;
     animation: flame 3s infinite alternate;
     z-index: -1;
