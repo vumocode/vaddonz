@@ -434,41 +434,5 @@
 }
 
 .enhance__progress--current {
-    background: linear-gradient(90deg, 
-        #ffcc00,  /* 1 - Jasny żółty */
-        #ffaa00,  /* 2 - Pomarańczowy */
-        #ff6600,  /* 3 - Ciepły pomarańczowy */
-        #ff3300,  /* 4 - Czerwony */
-        #cc0000,  /* 5 - Ciemnoczerwony */
-        #990000,  /* 6 - Bordowy */
-        #b33300,  /* 7 - Ciemniejszy pomarańczowy */
-        #cc6600,  /* 8 - Ciepły pomarańczowy */
-        #ff8000,  /* 9 - Złoty */
-        #ffcc00,  /* 10 - Jasny żółty */
-        #ff8000,  /* 9 - Złoty */
-        #cc6600,  /* 8 - Ciepły pomarańczowy */
-        #b33300,  /* 7 - Ciemniejszy pomarańczowy */
-        #990000,  /* 6 - Bordowy */
-        #cc0000,  /* 5 - Ciemnoczerwony */
-        #ff3300,  /* 4 - Czerwony */
-        #ff6600,  /* 3 - Ciepły pomarańczowy */
-        #ffaa00   /* 2 - Pomarańczowy */
-        #ffcc00,  /* 1 - Jasny żółty */
-    ) !important;
-    background-size: 200% 100%;  /* Zwiększenie rozmiaru gradientu */
-    background-position: 0% 0%;  /* Początkowa pozycja */
-    animation: flame 6s linear infinite;  /* Animacja płynnego przesuwania */
-    z-index: -1;
-}
-
-@keyframes flame {
-    0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 0%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
+    background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000);
 }
