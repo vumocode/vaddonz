@@ -36,9 +36,7 @@
     font-size: 14px;
     font-weight: 500;
     border: 1px solid #000000;
-    border-radius: 0px 0px 0px 0px;
-    box-shadow: 0px 0px 5px 0px #393939 inset, 0px 0px 0px 2px inset black;
-    background: transparent;
+    box-shadow: 0px 0px 0px 2px inset black, 0px 0px 10px 1px #000000 inset;
     background-image: linear-gradient(to top, #171717, #232323) !important;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     transition: background-color 0.2s linear;
@@ -265,7 +263,7 @@
     width: 25px;
     height: 25px;
     background-image: linear-gradient(to top, #171717, #232323);
-    border: 1px solid #3b3737;
+    border: 1px solid #000000;
     box-shadow: 0px 0px 5px 0px #393939 inset;
     color: white;
     font-size: 13px;
@@ -301,7 +299,7 @@
     justify-content: center;
     align-items: center;
     width: 25px;
-    max-height: 500px; /* Ustaw wartość wystarczająco dużą dla zawartości */
+    max-height: 500px;
     border: 1px solid #3b3737;
     border-radius: 10px 0px 0px 00px;
     box-shadow: 0px 0px 5px 0px #393939 inset;
@@ -312,7 +310,6 @@
     overflow: hidden;
     pointer-events: initial;
 }
-
 
 #vaddonz-dock.collapsed {
     max-height: 0;
@@ -337,7 +334,7 @@
     justify-content: center;
     height: 25px;
     width: 25px;
-    border-bottom: 1px solid #3b3737;
+    border-bottom: 1px solid #000000;
     background-image: linear-gradient(to top, #171717, #232323);
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     transition: background-color 0.2s ease-in-out;
