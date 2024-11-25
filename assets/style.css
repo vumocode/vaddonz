@@ -435,3 +435,7 @@
 .vaddonz-notification.fade-out {
     opacity: 0;
 }
+
+.enhance__progress--current {
+    background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
+}
