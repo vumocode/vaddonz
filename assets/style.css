@@ -424,6 +424,7 @@
     margin-top: 4px;
     font-size: 12px;
 }
+
 .ac-character-row {
     display: flex;
     justify-content: space-between;
@@ -431,9 +432,11 @@
     margin: 2px 0;
     white-space: nowrap;
 }
+
 .ac-character-name {
     margin-right: 10px;
 }
+
 .ac-character-status {
     min-width: 20px;
     text-align: center;
