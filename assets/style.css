@@ -318,23 +318,23 @@
     overflow: hidden;
 }
 
-#vaddonz-dock .vaddonz-dock-addon#vaddonz-ac {
-    order: 0;
-}
-
 #vaddonz-dock .vaddonz-dock-addon#vaddonz-qp {
-    order: 1;
+    order: 0;
 }
   
 #vaddonz-dock .vaddonz-dock-addon#vaddonz-aff {
-    order: 2;
+    order: 1;
 }
   
 #vaddonz-dock .vaddonz-dock-addon#vaddonz-brb {
-    order: 3;
+    order: 2;
 }
 
 #vaddonz-dock .vaddonz-dock-addon#vaddonz-ld {
+    order: 3;
+}
+
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-ac {
     order: 4;
 }
 
