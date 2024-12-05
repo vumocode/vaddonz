@@ -26,9 +26,12 @@
     text-align: center;
 }
 
-.vaddonz-select option:hover {
+.vaddonz-select option:hover,
+.vaddonz-select option:focus,
+.vaddonz-select option:active,
+.vaddonz-select option:checked {
     background-color: var(--vaddonz-accent);
-    color: #fff;
+    color: #1a1a1a;
 }
 
 .vaddonz-select:focus {
