@@ -31,14 +31,8 @@
     color: #fff;
 }
 
-/* Style dla zaznaczonej opcji */
-.vaddonz-select option:checked {
-    background-color: var(--vaddonz-accent);
-    color: #fff;
-}
-
 .vaddonz-select:focus {
-    border-color: #007bff;
+    border-color: #373737;
     outline: none;
 }
 
