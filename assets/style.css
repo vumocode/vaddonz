@@ -36,12 +36,6 @@
     color: #1a1a1a;
 }
 
-.vaddonz-select:focus {
-    border-color: #373737;
-    outline: none;
-}
-
-
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
