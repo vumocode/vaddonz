@@ -480,10 +480,6 @@
     transition: opacity 300ms ease-out;
 }
 
-.vaddonz-notification.move-up {
-    transition: top 0.8s ease-out;
-}
-
 .enhance__progress--current {
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
 }
