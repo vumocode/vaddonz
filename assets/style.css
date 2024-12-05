@@ -484,18 +484,6 @@
     position: relative;
 }
 
-.vaddonz-qp-close {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
-    font-size: 20px;
-}
-
 .vaddonz-qp-content {
     max-height: 200px;
     overflow-y: auto;
