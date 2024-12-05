@@ -26,6 +26,11 @@
     text-align: center;
 }
 
+.vaddonz-select option:hover {
+    background-color: #333; /* Kolor tła podczas najechania */
+    color: #fff; /* Kolor tekstu podczas najechania */
+}
+
 
 ::-webkit-scrollbar {
     width: 8px;
