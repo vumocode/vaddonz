@@ -514,6 +514,14 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
 }
 
+.vaddonz-qp-title p{
+    line-height: 0;
+    padding: 10px;
+    color: var(--vaddonz-accent);
+    font-weight: bold;
+    margin: 0 auto;
+}
+
 .vaddonz-qp-header {
     cursor: url(https://aether.margonem.pl/img/gui/cursor/4n.png?v=1730794617277) 10 28, auto;
     padding: 10px;
