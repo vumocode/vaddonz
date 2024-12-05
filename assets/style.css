@@ -582,7 +582,8 @@
     font-family: 'Rubik', sans-serif !important;
     background: rgb(51 51 51 / 37%);
     border: 1px solid #444;
-    color: #fff;
+    color: var(--vaddonz-accent);
+    font-weight: 500;
     padding: 5px 10px;
     border-radius: 3px;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
