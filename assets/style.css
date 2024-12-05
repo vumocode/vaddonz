@@ -184,7 +184,7 @@
 .work-in-progress {
     z-index: -1;
     color: var(--vaddonz-accent);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     margin-left: 5px;
     margin-top: -1px;
@@ -193,10 +193,10 @@
 .new-addon {
     color: #ffd700;
     z-index: -1;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     margin-left: 5px;
-    margin-top: -1px;
+    margin-top: 0px;
 }
 
 .vaddon-checkbox {
