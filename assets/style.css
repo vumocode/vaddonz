@@ -584,3 +584,7 @@
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
 }
 
+#mailnotifier {
+    right: 30px;
+    background: url(https://i.imgur.com/y8yj4E7.png) no-repeat -762px -410px;
+}
