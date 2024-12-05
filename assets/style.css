@@ -5,69 +5,39 @@
 }
 
 .vaddonz-select {
-    /* Podstawowe style dla kontenera */
+    width: 130px;
+    height: 30px;
+    color: #ffffff;
     background-color: #1a1a1a;
-    color: var(--vaddonz-accent);
     border: 1px solid var(--vaddonz-accent);
-    padding: 8px 12px;
     border-radius: 4px;
-    cursor: pointer;
-    width: 150px;
-    
-    /* Usunięcie domyślnych styli przeglądarki */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    
-    /* Własna strzałka */
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23ff0000' d='M2 4l4 4 4-4'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 8px center;
-    padding-right: 28px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    outline: none;
 }
+    
+    /* Stany */
+    &:hover {
+        background-color: #2a2a2a;  /* przy najechaniu */
+    }
+    
+    &:focus {
+        border-color: var(--vaddonz-accent);      /* przy fokusie */
+    }
+    
+    &:disabled {
+        opacity: 0.5;               /* gdy nieaktywny */
+    }
 
-/* Style dla opcji */
+/* Style dla opcji (ograniczone wsparcie) */
 .vaddonz-select option {
     background-color: #1a1a1a;
-    color: var(--vaddonz-accent);
-    padding: 8px;
-}
-
-/* Hover na kontenerze */
-.vaddonz-select:hover {
-    background-color: #2a2a2a;
-}
-
-/* Focus na kontenerze */
-.vaddonz-select:focus {
-    outline: none;
-    border-color: var(--vaddonz-accent);
-    box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
-}
-
-/* Usunięcie domyślnej strzałki w IE */
-.vaddonz-select::-ms-expand {
-    display: none;
-}
-
-/* Stylizacja scrollbara (tylko dla Webkit) */
-.vaddonz-select::-webkit-scrollbar {
-    width: 8px;
-}
-
-.vaddonz-select::-webkit-scrollbar-track {
-    background: #1a1a1a;
-}
-
-.vaddonz-select::-webkit-scrollbar-thumb {
-    background: var(--vaddonz-accent);
-    border-radius: 4px;
-}
-
-/* Opcjonalnie: style dla disabled */
-.vaddonz-select:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
+    color: #ffffff;
+    padding: 10px;
 }
 
 ::-webkit-scrollbar {
