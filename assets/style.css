@@ -4,6 +4,53 @@
     --vaddonz-accent: #ff0000;
 }
 
+.vaddonz-select {
+    /* Podstawowe style */
+    width: 200px;                /* szerokość */
+    height: 40px;               /* wysokość */
+    padding: 5px 10px;          /* wewnętrzny odstęp */
+    margin: 5px;                /* zewnętrzny odstęp */
+    
+    /* Kolory i tło */
+    color: #ffffff;             /* kolor tekstu */
+    background-color: #1a1a1a;  /* kolor tła */
+    border: 1px solid #ff0000;  /* obramowanie */
+    
+    /* Zaokrąglenia i cienie */
+    border-radius: 4px;         /* zaokrąglenie rogów */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);  /* cień */
+    
+    /* Tekst */
+    font-family: Arial;         /* czcionka */
+    font-size: 14px;           /* rozmiar czcionki */
+    font-weight: bold;         /* grubość czcionki */
+    text-align: left;          /* wyrównanie tekstu */
+    
+    /* Kursor i interakcje */
+    cursor: pointer;           /* wygląd kursora */
+    outline: none;             /* kontur przy fokusie */
+    
+    /* Stany */
+    &:hover {
+        background-color: #2a2a2a;  /* przy najechaniu */
+    }
+    
+    &:focus {
+        border-color: #ff0000;      /* przy fokusie */
+    }
+    
+    &:disabled {
+        opacity: 0.5;               /* gdy nieaktywny */
+    }
+}
+
+/* Style dla opcji (ograniczone wsparcie) */
+.vaddonz-select option {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 10px;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
