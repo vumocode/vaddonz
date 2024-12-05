@@ -22,20 +22,19 @@
     
     /* Stany */
     &:hover {
-        background-color: #2a2a2a;  /* przy najechaniu */
+        background-color: #2a2a2a;
     }
     
     &:focus {
         
-        border-color: var(--vaddonz-accent);      /* przy fokusie */
+        border-color: var(--vaddonz-accent);
     }
     
     &:disabled {
         
-        opacity: 0.5;               /* gdy nieaktywny */
+        opacity: 0.5;
     }
 
-/* Style dla opcji (ograniczone wsparcie) */
 .vaddonz-select option {
     background-color: #1a1a1a;
     color: #ffffff;
