@@ -26,10 +26,12 @@
     }
     
     &:focus {
+        
         border-color: var(--vaddonz-accent);      /* przy fokusie */
     }
     
     &:disabled {
+        
         opacity: 0.5;               /* gdy nieaktywny */
     }
 
@@ -38,6 +40,10 @@
     background-color: #1a1a1a;
     color: #ffffff;
     padding: 10px;
+}
+
+.vaddonz-select option:hover{
+    background-color: #d2ff0a;
 }
 
 ::-webkit-scrollbar {
