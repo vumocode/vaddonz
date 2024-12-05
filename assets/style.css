@@ -4,6 +4,28 @@
     --vaddonz-accent: #ff0000;
 }
 
+.vaddonz-select {
+    background-color: #1a1a1a;
+    color: var(--vaddonz-accent);
+    border: 1px solid var(--vaddonz-accent);
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    width: 150px;
+}
+
+.vaddonz-select:hover {
+    border-color: var(--vaddonz-accent);
+    box-shadow: 0 0 5px var(--vaddonz-accent);
+}
+
+.vaddonz-select option {
+    background-color: #1a1a1a;
+    color: var(--vaddonz-accent);
+    padding: 5px;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -583,6 +605,8 @@
 .enhance__progress--current {
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
 }
+
+
 
 #mailnotifier {
     right: 30px;
