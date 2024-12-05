@@ -192,9 +192,11 @@
 
 .new-addon {
     color: #ffd700;
-    font-weight: bold;
-    margin-left: 5px;
+    z-index: -1;
     font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: -1px;
 }
 
 .vaddon-checkbox {
