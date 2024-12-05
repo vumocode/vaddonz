@@ -42,10 +42,6 @@
     padding: 10px;
 }
 
-.vaddonz-select option:hover{
-    background-color: #d2ff0a;
-}
-
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
