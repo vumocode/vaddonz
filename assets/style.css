@@ -477,6 +477,7 @@
 
 .vaddonz-notification.fade-out {
     opacity: 0;
+    transition: opacity 300ms ease-out;
 }
 
 .enhance__progress--current {
