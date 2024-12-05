@@ -27,8 +27,19 @@
 }
 
 .vaddonz-select option:hover {
-    background-color: #333; /* Kolor tła podczas najechania */
-    color: #fff; /* Kolor tekstu podczas najechania */
+    background-color: var(--vaddonz-accent);
+    color: #fff;
+}
+
+/* Style dla zaznaczonej opcji */
+.vaddonz-select option:checked {
+    background-color: var(--vaddonz-accent);
+    color: #fff;
+}
+
+.vaddonz-select:focus {
+    border-color: #007bff;
+    outline: none;
 }
 
 
