@@ -8,6 +8,7 @@
     background-color: #1a1a1a;
     color: var(--vaddonz-accent);
     border: 1px solid var(--vaddonz-accent);
+    font-weight: 600;
     padding: 6px;
     margin-top: 2px;
     border-radius: 4px;
@@ -24,6 +25,7 @@
 
 .vaddonz-select option {
     text-align: center;
+    font-weight: 600;
 }
 
 .vaddonz-select option:hover,
