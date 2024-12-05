@@ -6,10 +6,8 @@
 
 .vaddonz-select {
     /* Podstawowe style */
-    width: 200px;                /* szerokość */
-    height: 40px;               /* wysokość */
-    padding: 5px 10px;          /* wewnętrzny odstęp */
-    margin: 5px;                /* zewnętrzny odstęp */
+    width: 95px;                /* szerokość */
+    height: 30px;               /* wysokość */
     
     /* Kolory i tło */
     color: #ffffff;             /* kolor tekstu */
