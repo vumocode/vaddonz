@@ -8,11 +8,13 @@
     background-color: #1a1a1a;
     color: var(--vaddonz-accent);
     border: 1px solid var(--vaddonz-accent);
-    padding: 5px 10px;
+    padding: 6px;
+    margin-top: 2px;
     border-radius: 4px;
     cursor: pointer;
     outline: none;
     width: 150px;
+    text-align: center;
 }
 
 .vaddonz-select:hover {
@@ -20,15 +22,10 @@
     box-shadow: 0 0 5px var(--vaddonz-accent);
 }
 
-.vaddonz-select, .vaddonz-select option {
+.vaddonz-select option {
     text-align: center;
 }
 
-.vaddonz-select {
-    text-align: center;
-    min-width: 60px;
-    padding: 5px;
-}
 
 ::-webkit-scrollbar {
     width: 8px;
