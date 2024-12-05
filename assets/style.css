@@ -5,28 +5,20 @@
 }
 
 .vaddonz-select {
-    /* Podstawowe style */
-    width: 95px;                /* szerokość */
-    height: 30px;               /* wysokość */
-    
-    /* Kolory i tło */
-    color: #ffffff;             /* kolor tekstu */
-    background-color: #1a1a1a;  /* kolor tła */
-    border: 1px solid #ff0000;  /* obramowanie */
-    
-    /* Zaokrąglenia i cienie */
-    border-radius: 4px;         /* zaokrąglenie rogów */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);  /* cień */
-    
-    /* Tekst */
-    font-family: Arial;         /* czcionka */
-    font-size: 14px;           /* rozmiar czcionki */
-    font-weight: bold;         /* grubość czcionki */
-    text-align: left;          /* wyrównanie tekstu */
-    
-    /* Kursor i interakcje */
-    cursor: pointer;           /* wygląd kursora */
-    outline: none;             /* kontur przy fokusie */
+    width: 130px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    border: 1px solid var(--vaddonz-accent);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    outline: none;
+}
     
     /* Stany */
     &:hover {
@@ -34,7 +26,7 @@
     }
     
     &:focus {
-        border-color: #ff0000;      /* przy fokusie */
+        border-color: var(--vaddonz-accent);      /* przy fokusie */
     }
     
     &:disabled {
