@@ -608,6 +608,7 @@
     position: absolute;
     font-family: Rubik, sans-serif !important;
     font-size: 15px;
+    color: var(--vaddonz-accent);
     background-color: #000000cc;
     padding: 10px;
     border-radius: 10px;
