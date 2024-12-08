@@ -639,6 +639,19 @@
     transform: translateY(-50%);
 }
 
+#vaddonz-popup .vaddonz-notification {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#vaddonz-popup .vaddonz-notification.show {
+    opacity: 1;
+}
+
+#vaddonz-popup .vaddonz-notification.move-up {
+    transition: top 0.3s ease-in-out;
+}
+
 .enhance__progress--current {
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
 }
