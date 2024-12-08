@@ -609,16 +609,6 @@
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
 }
 
-.alerts-layer .big-messages .message, .console-layer .big-messages .message, .mAlert-layer .big-messages .message, .mAlert-mobile-layer .big-messages .message {
-    pointer-events: none;
-    width: 100%;
-    font-size: 15px;
-    line-height: 35px;
-    color: var(--vaddonz-accent);
-    font-weight: 700;
-    text-shadow: 0 0 10px #000,0 0 5px #000;
-}
-
 #mailnotifier {
     right: 30px;
     background: url(https://i.imgur.com/y8yj4E7.png) no-repeat -762px -410px;
