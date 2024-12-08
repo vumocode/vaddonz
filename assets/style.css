@@ -604,59 +604,20 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
-[id^="vaddonz-notification-"] {
-    position: absolute;
-    font-family: Rubik, sans-serif !important;
-    font-size: 15px;
-    color: var(--vaddonz-accent);
-    background-color: #000000cc;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    opacity: 1;
-    transition: opacity 4s ease-out;
-    z-index: 9999;
-    pointer-events: none;
-    white-space: nowrap;
-    box-sizing: border-box;
-}
-
-[id^="vaddonz-notification-"].position-center {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-[id^="vaddonz-notification-"].position-left {
-    top: 50%;
-    left: 5%;
-    transform: translateY(-50%);
-}
-
-[id^="vaddonz-notification-"].position-right {
-    top: 50%;
-    right: 5%;
-    transform: translateY(-50%);
-}
-
-#vaddonz-popup .vaddonz-notification {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-#vaddonz-popup .vaddonz-notification.show {
-    opacity: 1;
-}
-
-#vaddonz-popup .vaddonz-notification.move-up {
-    transition: top 0.3s ease-in-out;
-}
-
 .enhance__progress--current {
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
 }
 
-
+.alerts-layer .big-messages .message, .console-layer .big-messages .message, .mAlert-layer .big-messages .message, .mAlert-mobile-layer .big-messages .message {
+    pointer-events: none;
+    width: 100%;
+    font-size: 15px;
+    line-height: 35px;
+    color: var(--vaddonz-accent);
+    font-weight: 700;
+    margin: 5px;
+    text-shadow: 0 0 10px #000,0 0 5px #000;
+}
 
 #mailnotifier {
     right: 30px;
