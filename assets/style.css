@@ -620,6 +620,7 @@
     transition: opacity 4s ease-out;
     z-index: 9999;
     pointer-events: none;
+    white-space: nowrap;
 }
 
 .vaddonz-notification.fade-out {
