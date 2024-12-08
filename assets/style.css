@@ -604,23 +604,23 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
-/* Podstawowy styl dla wszystkich powiadomień */
 [id^="vaddonz-notification-"] {
-    position: fixed;
+    position: absolute;
     font-family: Rubik, sans-serif !important;
     font-size: 15px;
     background-color: #000000cc;
-    padding: 15px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 10px;
     text-align: center;
     opacity: 1;
     transition: opacity 4s ease-out;
     z-index: 9999;
     pointer-events: none;
     white-space: nowrap;
+    box-sizing: border-box;
 }
 
-/* Środek (domyślne) */
+/* Środek */
 [id^="vaddonz-notification-"].position-center {
     top: 50%;
     left: 50%;
@@ -630,38 +630,29 @@
 /* Lewo */
 [id^="vaddonz-notification-"].position-left {
     top: 50%;
-    left: 30px;
+    left: 5%;
     transform: translateY(-50%);
 }
 
 /* Prawo */
 [id^="vaddonz-notification-"].position-right {
     top: 50%;
-    right: 30px;
+    right: 5%;
     transform: translateY(-50%);
 }
 
 /* Góra */
 [id^="vaddonz-notification-"].position-top {
-    top: 30px;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 /* Dół */
 [id^="vaddonz-notification-"].position-bottom {
-    bottom: 30px;
+    bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
-}
-
-/* Efekt zanikania */
-[id^="vaddonz-notification-"].fade-out {
-    opacity: 0;
-}
-
-[id^="vaddonz-notification-"].fade-out {
-    opacity: 0;
 }
 
 .enhance__progress--current {
