@@ -621,39 +621,22 @@
     box-sizing: border-box;
 }
 
-/* Środek */
 [id^="vaddonz-notification-"].position-center {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-/* Lewo */
 [id^="vaddonz-notification-"].position-left {
     top: 50%;
     left: 5%;
     transform: translateY(-50%);
 }
 
-/* Prawo */
 [id^="vaddonz-notification-"].position-right {
     top: 50%;
     right: 5%;
     transform: translateY(-50%);
-}
-
-/* Góra */
-[id^="vaddonz-notification-"].position-top {
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-/* Dół */
-[id^="vaddonz-notification-"].position-bottom {
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .enhance__progress--current {
