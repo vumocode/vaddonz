@@ -604,7 +604,7 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
-.vaddonz-notification {
+#vaddonz-notification {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -623,7 +623,7 @@
     white-space: nowrap;
 }
 
-.vaddonz-notification.fade-out {
+#vaddonz-notification.fade-out {
     opacity: 0;
     transition: opacity 300ms ease-out;
 }
