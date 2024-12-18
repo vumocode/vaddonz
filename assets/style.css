@@ -371,11 +371,11 @@
     overflow: hidden;
 }
 
-#vaddonz-dock .vaddonz-dock-addon#vaddonz-ag {
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-qp {
     order: 0;
 }
 
-#vaddonz-dock .vaddonz-dock-addon#vaddonz-qp {
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-ag {
     order: 1;
 }
   
