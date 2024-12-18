@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         v/ADDONZ - Menadżer dodatków vumo [NI]
-// @version      1.0
+// @version      1.01
 // @author       vumo
 // @description  Menadżer dodatków do gry Margonem.
 // @match        https://*.margonem.pl/
