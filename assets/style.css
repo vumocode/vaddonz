@@ -371,24 +371,28 @@
     overflow: hidden;
 }
 
-#vaddonz-dock .vaddonz-dock-addon#vaddonz-qp {
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-ag {
     order: 0;
 }
-  
-#vaddonz-dock .vaddonz-dock-addon#vaddonz-aff {
+
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-qp {
     order: 1;
 }
   
-#vaddonz-dock .vaddonz-dock-addon#vaddonz-brb {
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-aff {
     order: 2;
 }
-
-#vaddonz-dock .vaddonz-dock-addon#vaddonz-ld {
+  
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-brb {
     order: 3;
 }
 
-#vaddonz-dock .vaddonz-dock-addon#vaddonz-ac {
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-ld {
     order: 4;
+}
+
+#vaddonz-dock .vaddonz-dock-addon#vaddonz-ac {
+    order: 5;
 }
 
 .vaddonz-dock-addon {
