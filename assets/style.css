@@ -657,7 +657,7 @@
     box-shadow: 0px 0px 20px 0px #ff0000b8 inset;
 }
 
-.ab-bless:active {
+.ab-bless.active {
     border: 1px solid red;
 }
 
