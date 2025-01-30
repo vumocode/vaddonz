@@ -646,6 +646,10 @@
     padding: 10px;
 }
 
+.ab-bless {
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto; /* Zmiana kursora */
+}
+
 .enhance__progress--current {
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
 }
