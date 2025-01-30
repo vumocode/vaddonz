@@ -609,6 +609,29 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
+.vaddonz-ab-header {
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/4n.png?v=1730794617277) 10 28, auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid #444;
+    display: flex;
+    position: relative;
+}
+
+.vaddonz-ab-header span {
+    line-height: 0;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.vaddonz-ab-content {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
 .enhance__progress--current {
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
 }
