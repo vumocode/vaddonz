@@ -647,7 +647,14 @@
 }
 
 .ab-bless {
-    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto; /* Zmiana kursora */
+    margin: 1px;
+    border: 1px solid #383838;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+}
+
+.ab-bless:hover {
+    border: 1px solid red;
+    background-color: red;
 }
 
 .ab-results {
