@@ -653,8 +653,7 @@
 }
 
 .ab-bless:hover {
-    border: 1px solid red;
-    background-color: red;
+    box-shadow: 0px 0px 20px 0px #ff0000b8 inset;
 }
 
 .ab-results {
