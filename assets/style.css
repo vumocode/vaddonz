@@ -709,9 +709,8 @@
 }
 
 .aa-profession {
-    padding-bottom: 7px;
     border-bottom: 1px solid gray;
-    margin: 3px 0px 3px 0px;
+    padding: 3px 5px 3px 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
