@@ -619,7 +619,8 @@
     border-radius: 5px;
     z-index: 9999;
     overflow: auto;
-    max-width: 308px;
+    min-width: 308px;
+    width: auto;
     font-family: 'Rubik', sans-serif !important;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
 }
@@ -642,7 +643,9 @@
 }
 
 .vaddonz-ab-content {
+    display: flex;
     padding: 10px;
+    justify-content: center;
 }
 
 .ab-bless {
