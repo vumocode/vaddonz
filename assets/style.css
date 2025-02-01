@@ -715,7 +715,7 @@
     justify-content: space-between;
 }
 
-.aa-profession.select {
+.aa-profession select {
     width: 100px;
 }
 
