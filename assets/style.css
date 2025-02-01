@@ -703,7 +703,6 @@
 .vaddonz-aa-content {
     color: white;
     display: flex;
-    padding: 10px;
     justify-content: center;
     flex-direction: column;
 }
