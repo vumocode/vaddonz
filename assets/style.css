@@ -686,7 +686,7 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/4n.png?v=1730794617277) 10 28, auto;
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid gray;
     display: flex;
     position: relative;
 }
