@@ -716,7 +716,20 @@
 }
 
 .aa-profession select {
-    width: 100px;
+    margin-top: 2px;
+    width: 130px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    border: 1px solid var(--vaddonz-accent);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    outline: none;
 }
 
 .enhance__progress--current {
