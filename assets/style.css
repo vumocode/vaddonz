@@ -677,8 +677,7 @@
     border-radius: 5px;
     z-index: 9999;
     overflow: auto;
-    min-width: 308px;
-    width: auto;
+    width: 240px;
     font-family: 'Rubik', sans-serif !important;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
 }
@@ -708,6 +707,7 @@
 }
 
 .aa-profession {
+    height: 25px;
     border-bottom: 1px solid gray;
     padding: 3px 5px 3px 5px;
     display: flex;
