@@ -709,8 +709,14 @@
 }
 
 .aa-profession {
+    border-bottom: 1px solid gray;
+    margin: 3px 0px 3px 0px;
     display: flex;
     justify-content: space-between;
+}
+
+.aa-profession.select {
+    width: 100px;
 }
 
 .enhance__progress--current {
