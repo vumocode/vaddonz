@@ -708,6 +708,11 @@
     flex-direction: column;
 }
 
+.aa-profession {
+    display: flex;
+    justify-content: space-between;
+}
+
 .enhance__progress--current {
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
 }
