@@ -709,16 +709,16 @@
 }
 
 .aa-profession {
+    padding-bottom: 7px;
     border-bottom: 1px solid gray;
     margin: 3px 0px 3px 0px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .aa-profession select {
-    margin-top: 2px;
-    width: 130px;
-    height: 30px;
+    width: 80px;
     color: #ffffff;
     background-color: #1a1a1a;
     border: 1px solid var(--vaddonz-accent);
@@ -731,6 +731,21 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     outline: none;
 }
+
+    /* Stany */
+    &:hover {
+        background-color: #2a2a2a;
+    }
+    
+    &:focus {
+        
+        border-color: var(--vaddonz-accent);
+    }
+    
+    &:disabled {
+        
+        opacity: 0.5;
+    }
 
 .enhance__progress--current {
     background: linear-gradient(90deg, #ffcc00, #cc5100, #ff0000) !important;
