@@ -831,9 +831,10 @@
     margin: 0px 5px 0px 5px;
 }
 
-.vaddonz-search input{
+.vaddonz-search input {
     font-family: 'Rubik', sans-serif !important;
-    width: 892px;
+    height: 30px;
+    width: 894px;
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
 }
