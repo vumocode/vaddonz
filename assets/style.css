@@ -860,7 +860,7 @@
 
 .vaddonz-enabled, .vaddonz-disabled{
     background-color: rgba(0, 0, 0, 0.8);
-    color: var(--vaddonz-accent);
+    color: white;
     border: 1px solid gray;
     border-radius: 5px;
     padding: 5px;
