@@ -763,17 +763,23 @@
 }
 
 #vaddonz-news-popup {
+    color: white;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(204, 204, 204);
-    padding: 10px;
-    z-index: 1000;
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid #444;
+    border-radius: 5px;
+    z-index: 9999;
+    min-width: 300px;
+    font-family: 'Rubik', sans-serif !important;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
 }
 
 .news-title {
+    border-bottom: 1px solid gray;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
