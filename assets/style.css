@@ -851,14 +851,14 @@
 .vaddonz-wip {
     display: none;
     font-family: 'Rubik', sans-serif !important;
-    height: 30px;
+    height: 42px;
     width: 900px;
     margin-left: -1px;
     margin-top: -1px;
     color: var(--vaddonz-accent);
     line-height: 0;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.8);
+    background: none;
     border: 1px solid gray;
     justify-content: center;
     align-items: center;
