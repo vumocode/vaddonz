@@ -838,13 +838,14 @@
 
 .vaddonz-search input {
     font-family: 'Rubik', sans-serif !important;
-    height: 26px;
-    width: 496px;
+    height: 40px;
+    width: 446px;
     color: white;
     border-right: 1px solid gray;
     border-left: 0px;
+    border-top: none;
     border-bottom: 1px solid gray;
-    background-color: rgba(0, 0, 0, 0.8);
+    background: none;
 }
 
 .vaddonz-wip {
@@ -863,8 +864,8 @@
     align-items: center;
 }
 
-.vaddonz-enabled, .vaddonz-disabled{
-    background-color: rgba(0, 0, 0, 0.8);
+.vaddonz-enabled, .vaddonz-disabled {
+    background: none;
     color: white;
     border: 1px solid gray;
     border-radius: 5px;
@@ -878,8 +879,10 @@
 }
 
 .vaddonz-status {
+    background: none;
     border-bottom: 1px solid gray;
-    width: 399px;
+    width: 449px;
+    height: 42px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
