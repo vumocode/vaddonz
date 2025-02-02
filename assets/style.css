@@ -808,11 +808,13 @@
 }
 
 .news-added {
+    background-color: #00800047;
     display: flex;
 }
 
 .news-removed {
-    margin-left: 2px;
+    padding: 5px 0px 5px 2px;
+    background-color: #ff000045;
     display: flex;
 }
 
