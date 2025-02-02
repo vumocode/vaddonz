@@ -808,6 +808,7 @@
 }
 
 .news-added {
+    padding: 5px 0px 5px 0px;
     background-color: #00800047;
     display: flex;
 }
