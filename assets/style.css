@@ -876,3 +876,11 @@
     font-size: 13px;
     transition: background-color 0.3s;
 }
+
+.vaddonz-status {
+    border-bottom: 1px solid gray;
+    width: 399px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
