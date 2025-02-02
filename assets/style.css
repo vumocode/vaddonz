@@ -845,7 +845,10 @@
     height: 30px;
     width: 900px;
     margin-left: -1px;
-    color: white;
+    margin-top: -1px;
+    color: var(--vaddonz-accent);
+    line-height: 0;
+    font-weight: bold;
     background-color: rgba(0, 0, 0, 0.8);
     border: 1px solid gray;
     justify-content: center;
