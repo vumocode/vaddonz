@@ -772,3 +772,13 @@
     padding: 10px;
     z-index: 1000;
 }
+
+.news-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vaddonz-news{
+    position: fixed;
+}
