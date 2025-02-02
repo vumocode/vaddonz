@@ -1,10 +1,16 @@
 // ==UserScript==
 // @name         v/ADDONZ - Menadżer dodatków vumo [NI]
-// @version      1.01
+// @version      1.02
 // @author       vumo
 // @description  Menadżer dodatków do gry Margonem.
-// @match        https://*.margonem.pl/
-// @match        https://*.margonem.com/
+// @match        http*://*.margonem.pl/
+// @match        http*://*.margonem.com/
+// @exclude      http*://margonem.*/*
+// @exclude      http*://www.margonem.*/*
+// @exclude      http*://new.margonem.*/*
+// @exclude      http*://forum.margonem.*/*
+// @exclude      http*://commons.margonem.*/*
+// @exclude      http*://dev-commons.margonem.*/*
 // @icon         https://vumocode.github.io/vaddonz/assets/vaddonz.ico
 // @downloadURL  https://vumocode.github.io/vaddonz/vaddonz-install.user.js
 // @updateURL    https://vumocode.github.io/vaddonz/vaddonz-install.user.js
