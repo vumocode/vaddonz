@@ -811,8 +811,18 @@
     display: flex;
 }
 
+.news-removed {
+    display: flex;
+}
+
 .added-indicator {
     font-weight: bold;
     color: green;
+    margin: 0px 5px 0px 5px;
+}
+
+.removed-indicator {
+    font-weight: bold;
+    color: #ff0000;
     margin: 0px 5px 0px 5px;
 }
