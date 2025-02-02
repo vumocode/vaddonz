@@ -814,7 +814,7 @@
 }
 
 .news-removed {
-    padding: 5px 0px 5px 2px;
+    padding: 5px 0px 5px 0px;
     background-color: #ff000021;
     display: flex;
 }
