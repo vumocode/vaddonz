@@ -777,6 +777,15 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
 }
 
+#close-news-popup {
+    margin-left: auto;
+    color: #ffffff;
+    border: none;
+    margin-right: 1px;
+    background-color: black;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+}
+
 .news-title {
     border-bottom: 1px solid gray;
     height: 30px;
@@ -787,8 +796,4 @@
 
 #vaddonz-news{
     position: fixed;
-}
-
-#close-news-popup{
-    margin-left: auto;
 }
