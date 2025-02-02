@@ -155,7 +155,7 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
-#vaddonzADDONS, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
+#vaddonzADDONS, #vaddonzWIP, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
     display: flex;
     justify-content: center;
     border: 1px solid gray;
