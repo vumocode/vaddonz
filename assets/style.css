@@ -834,13 +834,14 @@
 .vaddonz-search input {
     font-family: 'Rubik', sans-serif !important;
     height: 26px;
-    width: 896px;
+    width: 496px;
     color: white;
-    border-right: none;
+    border-right: 1px solid gray;
     border-left: 0px;
     border-bottom: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.8);
 }
+
 .vaddonz-wip {
     display: none;
     font-family: 'Rubik', sans-serif !important;
