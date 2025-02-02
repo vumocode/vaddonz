@@ -866,7 +866,7 @@
 
 #vaddonz-enabled, #vaddonz-disabled {
     background: none;
-    color: white;
+    color: var(--vaddonz-accent);
     border: 1px solid gray;
     border-radius: 5px;
     padding: 5px;
@@ -876,6 +876,10 @@
     font-weight: 500;
     font-size: 13px;
     transition: background-color 0.3s;
+}
+
+.status-active{
+    border: 1px solid var(--vaddonz-accent) !important;
 }
 
 .vaddonz-status {
