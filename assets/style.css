@@ -782,3 +782,7 @@
 #vaddonz-news{
     position: fixed;
 }
+
+#close-news-popup{
+    margin-left: auto;
+}
