@@ -761,3 +761,14 @@
     right: 30px;
     background: url(https://i.imgur.com/y8yj4E7.png) no-repeat -762px -410px;
 }
+
+#vaddonz-news-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+    z-index: 1000;
+}
