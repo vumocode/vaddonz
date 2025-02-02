@@ -857,3 +857,17 @@
     justify-content: center;
     align-items: center;
 }
+
+.vaddonz-enabled, .vaddonz-disabled{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--vaddonz-accent);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 115px;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    transition: background-color 0.3s;
+}
