@@ -831,6 +831,11 @@
     margin: 0px 5px 0px 5px;
 }
 
+.vaddonz-search {
+    display: flex;
+    align-items: center;
+}
+
 .vaddonz-search input {
     font-family: 'Rubik', sans-serif !important;
     height: 26px;
