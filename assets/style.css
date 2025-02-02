@@ -841,10 +841,11 @@
     height: 40px;
     width: 446px;
     color: white;
+    margin-left: 10px;
     border-right: 1px solid gray;
     border-left: 0px;
     border-top: none;
-    border-bottom: 1px solid gray;
+    border-bottom: none;
     background: none;
 }
 
@@ -884,7 +885,6 @@
 
 .vaddonz-status {
     background: none;
-    border-bottom: 1px solid gray;
     width: 449px;
     height: 42px;
     display: flex;
