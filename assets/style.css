@@ -907,5 +907,5 @@
 }
 
 .vaddon.checked {
-    background-color: var(--vaddonz-accent-opacity); /* Kolor z 25% przezroczystości */
+    background-color: var(--vaddonz-accent-opacity);
 }
