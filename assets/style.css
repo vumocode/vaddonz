@@ -894,5 +894,5 @@
 }
 
 .vaddon.checked {
-    background-color: #e0ffe0; /* Kolor tła, gdy dodatek jest aktywny */
+    background-color: rgba(var(--vaddonz-accent), 0.3); /* 0.3 oznacza 30% przezroczystości */
 }
