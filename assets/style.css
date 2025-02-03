@@ -194,24 +194,35 @@
     padding: 0 0 0 10px;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center; /* Wyśrodkowanie w pionie */
+    gap: 10px; /* Odstęp między ikoną, nazwą i opisem */
 }
 
 .vaddonName {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Ustawienie nazwy i opisu w pionie */
+    justify-content: center;
     font-weight: 500;
     font-size: 18px;
-    padding-top: 15px;
+}
+
+.vaddonIcon {
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie ikony w poziomie */
+    align-items: center; /* Wyśrodkowanie ikony w pionie */
+    width: 30px; /* Ustalona szerokość ikony */
+    height: 30px; /* Ustalona wysokość ikony */
 }
 
 .vaddonName i {
-    margin-right: 10px;
-    flex-shrink: 0;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+    font-size: 20px; /* Wielkość ikony */
+}
+
+.vaddonDescription {
+    font-size: 12px;
+    padding-left: 23px;
+    padding-bottom: 11px;
 }
 
 .vaddonName label {
@@ -259,12 +270,6 @@
 .vaddon-checkbox:checked + label::before {
     background-color: var(--vaddonz-accent);
     border: 2px solid var(--vaddonz-accent);
-}
-
-.vaddonDescription {
-    font-size: 12px;
-    padding-left: 23px;
-    padding-bottom: 11px;
 }
 
 .vaddonzSettingsEntry {
