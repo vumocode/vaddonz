@@ -199,20 +199,17 @@
     gap: 10px; /* Odstęp między ikoną, nazwą i opisem */
 }
 
-.vaddonName {
-    display: flex;
-    flex-direction: column; /* Ustawienie nazwy i opisu w pionie */
-    justify-content: center;
-    font-weight: 500;
-    font-size: 18px;
-}
-
 .vaddonIcon {
+    text-align: center;
     font-size: 30px;
+    width: 40px;
 }
 
 .vaddonName {
     position: relative;
+    display: flex;
+    flex-direction: column; /* Ustawienie nazwy i opisu w pionie */
+    justify-content: center;
     padding: 10px 0px 10px 5px;
     font-weight: 500;
     font-size: 18px;
