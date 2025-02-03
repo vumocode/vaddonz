@@ -208,15 +208,15 @@
 }
 
 .vaddonIcon {
-    display: flex;
-    justify-content: center; /* Wyśrodkowanie ikony w poziomie */
-    align-items: center; /* Wyśrodkowanie ikony w pionie */
-    width: 30px; /* Ustalona szerokość ikony */
-    height: 30px; /* Ustalona wysokość ikony */
+    font-size: 30px;
 }
 
-.vaddonName i {
-    font-size: 20px; /* Wielkość ikony */
+.vaddonName {
+    position: relative;
+    transform: translateY(+17%);
+    padding: 5px 0px 5px 5px;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .vaddonDescription {
