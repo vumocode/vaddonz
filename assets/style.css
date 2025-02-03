@@ -193,6 +193,7 @@
     margin: 10px 3px 10px 8px;
     padding: 0 0 0 10px;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    transition: background-color 0.3s ease;
 }
 
 .vaddonName {
