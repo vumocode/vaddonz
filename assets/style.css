@@ -213,16 +213,13 @@
 
 .vaddonName {
     position: relative;
-    transform: translateY(+17%);
-    padding: 5px 0px 5px 5px;
+    padding: 10px 0px 10px 5px;
     font-weight: 500;
     font-size: 18px;
 }
 
 .vaddonDescription {
     font-size: 12px;
-    padding-left: 23px;
-    padding-bottom: 11px;
 }
 
 .vaddonName label {
