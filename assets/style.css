@@ -230,7 +230,7 @@
 
 .new-addon {
     color: #ffd700;
-    z-index: -1;
+    z-index: 0;
     font-size: 13px;
     font-weight: 600;
     margin-left: 5px;
