@@ -909,3 +909,18 @@
 .vaddon.checked {
     background-color: var(--vaddonz-accent-opacity);
 }
+
+button#ls-reset {
+    margin-top: 5px;
+    transition: background-color 0.3s;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: none;
+    padding: 5px;
+    width: 115px;
+    color: var(--vaddonz-accent);
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Rubik', sans-serif;
+}
