@@ -924,3 +924,13 @@ button#ls-reset {
     font-size: 13px;
     font-family: 'Rubik', sans-serif;
 }
+
+.vaddonzFaqEntry {
+    border: 1px solid var(--vaddonz-accent);
+    border-radius: 10px;
+    width: 95%;
+    padding: 10px;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
