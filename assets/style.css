@@ -934,3 +934,8 @@ button#ls-reset {
     margin-left: auto;
     margin-right: auto;
 }
+
+.vaddonzFaqEntry a {
+    color: #00f3ff;
+    text-decoration: none;
+}
