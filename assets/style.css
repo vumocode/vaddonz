@@ -155,7 +155,7 @@
     color: #2e85f3;
 }
 
-#vaddonzADDONS\ LIST, #vaddonzWORK\ IN\ PROGRESS, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzSETTINGS, #vaddonzCHANGELOG {
+#vaddonzADDONS\ LIST, #vaddonzSETTINGS, #vaddonzFAQ {
     display: flex;
     justify-content: center;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
