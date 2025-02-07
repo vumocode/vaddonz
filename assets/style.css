@@ -910,7 +910,7 @@
     background-color: var(--vaddonz-accent-opacity);
 }
 
-button#ls-reset {
+button#ls-reset, button#ls-import, button#ls-export {
     margin-top: 5px;
     transition: background-color 0.3s;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
@@ -940,3 +940,4 @@ button#ls-reset {
     text-decoration: none;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
+
