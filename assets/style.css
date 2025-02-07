@@ -270,7 +270,7 @@
     flex-direction: column;
     align-items: center;
     float: left;
-    margin: 15px;
+    margin: 16px 0px 0px 22px;
     border: 1px solid var(--vaddonz-accent);
     padding: 5px;
     width: 45%;
