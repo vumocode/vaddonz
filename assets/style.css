@@ -938,4 +938,5 @@ button#ls-reset {
 .vaddonzFaqEntry a {
     color: #00f3ff;
     text-decoration: none;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
