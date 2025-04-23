@@ -21,7 +21,7 @@
 (function() {
     const date = new Date();
     const version = `${date.getFullYear()}${date.getMonth()}${date.getDate()}`;
-    const build = "https://addons2.margonem.pl/get/153/153109dev.js";
+    const build = "https://addons2.margonem.pl/get/153/153538dev.js";
     const script = document.createElement("script");
     script.src = `${build}?v=${version}`;
     document.body.appendChild(script);
