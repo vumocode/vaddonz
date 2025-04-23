@@ -941,3 +941,12 @@ button#ls-reset, button#ls-import, button#ls-export {
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
+.news-indicator {
+    display: flex;
+    margin: 0px 5px 0px 5px;
+    border-right: 1px solid green;
+    padding-right: 5px;
+    color: green;
+    font-weight: bold;
+    align-items: center;
+}
