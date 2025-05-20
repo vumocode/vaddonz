@@ -63,8 +63,10 @@
 .vaddonz-button {
     display: flex;
     position: absolute;
-    top: 158px;
-    right: 151px;
+    top: 156px !important;
+    height: 28px !important;
+    right: -104px !important;
+    width: 79px !important;
     justify-content: center;
     align-items: center;
     z-index: 9999;
@@ -75,8 +77,6 @@
     border-radius: 0px 0px 0px 0px;
     background-image: linear-gradient(to top, #171717, #232323) !important;
     padding: 5px;
-    width: 77px;
-    height: 27px;
     font-weight: 500;
     font-size: 14px;
     font-family: 'Rubik', sans-serif !important;
