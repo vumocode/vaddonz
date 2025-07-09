@@ -950,3 +950,43 @@ button#ls-reset, button#ls-import, button#ls-export {
     font-weight: bold;
     align-items: center;
 }
+
+#vaddonz-ls-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.9);
+    width: auto;
+    min-width: 308px;
+    overflow: auto;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.vaddonz-ls-header {
+    display: flex;
+    position: relative;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/4n.png?v=1730794617277) 10 28, auto;
+    border-bottom: 1px solid #444;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+.vaddonz-ls-header span {
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.vaddonz-ls-content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
