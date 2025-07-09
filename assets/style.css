@@ -985,8 +985,6 @@ button#ls-reset, button#ls-import, button#ls-export {
 }
 
 .vaddonz-ls-content {
-    display: flex;
-    justify-content: center;
     padding: 10px;
 }
 
