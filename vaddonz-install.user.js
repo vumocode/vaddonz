@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         v/ADDONZ - Menadżer dodatków vumo [NI]
-// @version      1.03
+// @name         v/ADDONZ
+// @version      1.0
 // @author       vumo
 // @description  Menadżer dodatków do gry Margonem.
 // @match        http*://*.margonem.pl/
@@ -11,18 +11,15 @@
 // @exclude      http*://forum.margonem.*/*
 // @exclude      http*://commons.margonem.*/*
 // @exclude      http*://dev-commons.margonem.*/*
-// @icon         https://vumocode.github.io/vaddonz/assets/vaddonz.ico
-// @downloadURL  https://vumocode.github.io/vaddonz/vaddonz-install.user.js
-// @updateURL    https://vumocode.github.io/vaddonz/vaddonz-install.user.js
+// @icon         https://vumocode.github.io/vaddonz/icon.gif
+// @downloadURL  https://vumocode.github.io/vaddonz/install.user.js
+// @updateURL    https://vumocode.github.io/vaddonz/install.user.js
 // @grant        none
 // ==/UserScript==
 
 "use strict";
 (function() {
-    const date = new Date();
-    const version = `${date.getFullYear()}${date.getMonth()}${date.getDate()}`;
-    const build = "https://addons2.margonem.pl/get/153/153538dev.js";
     const script = document.createElement("script");
-    script.src = `${build}?v=${version}`;
+    script.src = "https://pub-05e2f98fb5b34633ae42c4866ef64081.r2.dev/vaddonz-bundle.js?v=" + Date.now();
     document.body.appendChild(script);
 })();
