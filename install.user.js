@@ -11,7 +11,7 @@
 // @exclude      http*://forum.margonem.*/*
 // @exclude      http*://commons.margonem.*/*
 // @exclude      http*://dev-commons.margonem.*/*
-// @icon         https://vumocode.github.io/vaddonz/icon.gif
+// @icon         https://vumocode.github.io/vaddonz/userscript-icon.gif
 // @downloadURL  https://vumocode.github.io/vaddonz/install.user.js
 // @updateURL    https://vumocode.github.io/vaddonz/install.user.js
 // @grant        none
