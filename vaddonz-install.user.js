@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         v/ADDONZ
-// @version      2.0
+// @version      1.9
 // @author       vumo
 // @description  Menadżer dodatków do gry Margonem.
 // @match        http*://*.margonem.pl/
@@ -11,7 +11,7 @@
 // @exclude      http*://forum.margonem.*/*
 // @exclude      http*://commons.margonem.*/*
 // @exclude      http*://dev-commons.margonem.*/*
-// @icon         https://vumocode.github.io/vaddonz/icon.gif
+// @icon         https://vumocode.github.io/vaddonz/userscript-icon.gif
 // @downloadURL  https://vumocode.github.io/vaddonz/install.user.js
 // @updateURL    https://vumocode.github.io/vaddonz/install.user.js
 // @grant        none
