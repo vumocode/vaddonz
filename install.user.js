@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         v/ADDONZ
-// @version      2.0
+// @version      2.01
 // @author       vumo
 // @description  Menadżer dodatków do gry Margonem.
 // @match        http*://*.margonem.pl/
@@ -14,12 +14,22 @@
 // @icon         https://vumocode.github.io/vaddonz/userscript-icon.gif
 // @downloadURL  https://vumocode.github.io/vaddonz/install.user.js
 // @updateURL    https://vumocode.github.io/vaddonz/install.user.js
-// @grant        none
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @grant        GM_deleteValue
+// @grant        GM_listValues
 // ==/UserScript==
 
-"use strict";
-(function() {
-    const script = document.createElement("script");
-    script.src = "https://pub-05e2f98fb5b34633ae42c4866ef64081.r2.dev/vaddonz-bundle.js?v=" + Date.now();
-    document.body.appendChild(script);
+'use strict';
+(function () {
+  document.vaddonz = {
+    GM_getValue,
+    GM_setValue,
+    GM_deleteValue,
+    GM_listValues
+  };
+
+  const script = document.createElement('script');
+  script.src = 'https://pub-05e2f98fb5b34633ae42c4866ef64081.r2.dev/vaddonz-bundle.js?v=' + Date.now();
+  document.body.appendChild(script);
 })();
