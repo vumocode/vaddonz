@@ -22,6 +22,7 @@
 
 'use strict';
 (function () {
+
   document.vaddonz = {
     GM_getValue,
     GM_setValue,
