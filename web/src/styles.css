@@ -1,0 +1,235 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Design system: Technical Monolith
+ * Dark, premium aesthetic for the Margonem userscript landing page.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand: #e4e4e7;
+  --color-brand-400: #f4f4f5;
+  --color-brand-600: #a1a1aa;
+  --color-brand-bg: #09090b;
+  --color-brand-surface: #18181b;
+  --color-brand-border: rgba(255, 255, 255, 0.06);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(0.11 0.01 285);
+  --foreground: oklch(0.92 0 0);
+  --card: oklch(0.14 0.01 285);
+  --card-foreground: oklch(0.92 0 0);
+  --popover: oklch(0.14 0.01 285);
+  --popover-foreground: oklch(0.92 0 0);
+  --primary: oklch(0.7 0.2 158);
+  --primary-foreground: oklch(0.11 0.01 285);
+  --secondary: oklch(0.18 0.01 285);
+  --secondary-foreground: oklch(0.92 0 0);
+  --muted: oklch(0.18 0.01 285);
+  --muted-foreground: oklch(0.65 0.02 285);
+  --accent: oklch(0.18 0.01 285);
+  --accent-foreground: oklch(0.92 0 0);
+  --destructive: oklch(0.6 0.2 25);
+  --destructive-foreground: oklch(0.92 0 0);
+  --border: oklch(0.2 0.01 285);
+  --input: oklch(0.2 0.01 285);
+  --ring: oklch(0.7 0.2 158);
+  --chart-1: oklch(0.7 0.2 158);
+  --chart-2: oklch(0.65 0.15 230);
+  --chart-3: oklch(0.6 0.12 260);
+  --chart-4: oklch(0.75 0.18 80);
+  --chart-5: oklch(0.55 0.2 30);
+  --sidebar: oklch(0.11 0.01 285);
+  --sidebar-foreground: oklch(0.92 0 0);
+  --sidebar-primary: oklch(0.7 0.2 158);
+  --sidebar-primary-foreground: oklch(0.11 0.01 285);
+  --sidebar-accent: oklch(0.18 0.01 285);
+  --sidebar-accent-foreground: oklch(0.92 0 0);
+  --sidebar-border: oklch(0.2 0.01 285);
+  --sidebar-ring: oklch(0.7 0.2 158);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+
+  html {
+    font-size: 15px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.5rem;
+  }
+
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+@utility text-pretty {
+  text-wrap: pretty;
+}
+
+/* ===== Subtle ambient effects ===== */
+
+@keyframes aurora {
+  0%, 100% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  }
+  33% {
+    transform: translate(-45%, -55%) rotate(8deg) scale(1.05);
+  }
+  66% {
+    transform: translate(-55%, -45%) rotate(-6deg) scale(0.98);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-brand) 25%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 20px 4px color-mix(in oklab, var(--color-brand) 12%, transparent);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@utility animate-aurora {
+  animation: aurora 18s ease-in-out infinite;
+}
+
+@utility animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+@utility animate-gradient {
+  animation: gradient-shift 4s linear infinite;
+}
+
+@utility animate-shimmer {
+  animation: shimmer 3s linear infinite;
+}
+
+@utility animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+@utility animate-pulse-glow {
+  animation: pulse-glow 2.5s ease-in-out infinite;
+}
+
+@utility bg-grid {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--color-foreground) 4%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--color-foreground) 4%, transparent) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@utility bg-dot {
+  background-image: radial-gradient(
+    circle,
+    color-mix(in oklab, var(--color-foreground) 8%, transparent) 1px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
+}
